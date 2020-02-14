@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="D:\agree\afa" version="1.8.0_102">
+<bootpath>
+<entry path="D:\agree\afa\jre\lib\resources.jar"/>
+<entry path="D:\agree\afa\jre\lib\rt.jar"/>
+<entry path="D:\agree\afa\jre\lib\sunrsasign.jar"/>
+<entry path="D:\agree\afa\jre\lib\jsse.jar"/>
+<entry path="D:\agree\afa\jre\lib\jce.jar"/>
+<entry path="D:\agree\afa\jre\lib\charsets.jar"/>
+<entry path="D:\agree\afa\jre\lib\jfr.jar"/>
+<entry path="D:\agree\afa\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="D:\agree\afa\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="D:\agree\afa\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="D:\agree\afa\jre" version="1.8.0_102">
+<bootpath>
+<entry path="D:\agree\afa\jre\lib\resources.jar"/>
+<entry path="D:\agree\afa\jre\lib\rt.jar"/>
+<entry path="D:\agree\afa\jre\lib\sunrsasign.jar"/>
+<entry path="D:\agree\afa\jre\lib\jsse.jar"/>
+<entry path="D:\agree\afa\jre\lib\jce.jar"/>
+<entry path="D:\agree\afa\jre\lib\charsets.jar"/>
+<entry path="D:\agree\afa\jre\lib\jfr.jar"/>
+<entry path="D:\agree\afa\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="D:\agree\afa\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="D:\agree\afa\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

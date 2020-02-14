@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="dbDevView" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1581677671555_0" label="数据库开发视角" name="数据库开发视角">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/dataModule" type="4"/>
+</workingSet>
+<workingSet editPageId="bussDevView" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1581677671567_1" label="业务开发视角" name="业务开发视角">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/functionModule" type="4"/>
+</workingSet>
+<workingSet editPageId="dataDevView" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1581677671575_2" label="数据开发视角" name="数据开发视角"/>
+<mruList name="数据开发视角"/>
+<mruList name="业务开发视角"/>
+<mruList name="数据库开发视角"/>
+</workingSetManager>

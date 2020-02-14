@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="technologyComponent/bank/componentSourceCode"/>
+	<classpathentry kind="src" path="technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/afa library"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="technologyComponent/output/.bin"/>
+</classpath>
