@@ -1,0 +1,57 @@
+
+debug:    false
+
+ap.rl:
+  componentScan.basePackages:   >-
+    cn.com.agree.huanan.ap.tl,
+    cn.com.agree.huanan.ap.rl.aptl,
+    cn.com.agree.huanan.ap.rl.agree.afa,
+    cn.com.agree.huanan.ap.rl.corp.message,
+    cn.com.agree.huanan.ap.rl.corp.commnunicate,
+    cn.com.agree.huanan.ap.rl.bank,
+    cn.com.agree.huanan.ap.al
+
+
+spring.main.banner-mode:        "off"
+
+ap.tl.base:
+  dbType:           ORACLE
+  blId:             CSIS
+  defErrorCode:     0310E99999
+  defErrorMsg:      "SYSTEM ERROR"
+
+
+ap.tl.ddl:
+  defDataTabSpace:          MID_DAT
+  defIndexTabSpace:         MID_IDX
+  sqlFilePathFormat:        sql/ddl/%s.sql
+  tabNameRegex:             '[a-z0-9_]{10,25}'
+  colNameRegex:             '[a-zA-Z0-9]{3,25}'
+
+
+ap.tl.bean.path:
+  nodeName:  COMMON
+  parser:
+    NATP:  cn.com.agree.huanan.ap.tl.message.std.NatpParser
+    JSON:  cn.com.agree.huanan.ap.tl.message.std.JsonParser
+    SVC:   cn.com.agree.huanan.ap.tl.message.std.SvcParser
+    HTTP:  cn.com.agree.huanan.ap.tl.message.std.HttpParser
+    SERVICE:  cn.com.agree.huanan.ap.tl.message.std.ServiceParser
+    XML:  cn.com.agree.huanan.ap.rl.corp.message.xml.Dom4jXmlParserImpl
+    ESB:  cn.com.agree.huanan.ap.rl.corp.message.soap.EsbSoapParserImpl
+    ESBSOAP:  cn.com.agree.huanan.ap.rl.bank.channels.commnunicate.message.EsbSoapParserImpl
+    ECIXML:  cn.com.agree.huanan.ap.rl.bank.channels.commnunicate.message.EciXmlParserImpl
+    SVSXML:  cn.com.agree.huanan.ap.rl.bank.channels.commnunicate.message.SvsXmlParserImpl
+    QMSXML:  cn.com.agree.huanan.ap.rl.bank.channels.commnunicate.message.QmsPXmlParserImpl
+    MACJSON:  cn.com.agree.huanan.ap.rl.bank.channels.commnunicate.message.MacJsonParserImpl
+    
+  commAdapter:
+    NATP:  cn.com.agree.huanan.ap.tl.communicate.comm.adapter.NatpAdapter
+    RPC:   cn.com.agree.huanan.ap.tl.communicate.comm.adapter.RpcAdapter
+    HTTP:  cn.com.agree.huanan.ap.tl.communicate.comm.adapter.HttpAdapter
+    SOCK:  cn.com.agree.huanan.ap.tl.communicate.comm.adapter.SocketAdapter
+    ESBTCP: cn.com.agree.huanan.ap.tl.communicate.comm.adapter.SimpleTcpAdapter
+
+ap.tl.message:
+    defaultMessageType:        SVC
+    svcParserMsgType:          JSON

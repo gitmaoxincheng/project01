@@ -1,0 +1,48 @@
+{
+  "Header": {
+    "Address": "0202",
+    "Action": "http://www.dongguanbank.cn/CSISC03007/902"
+  },
+  "CsisHeader": {
+    "SrcDate": "20191226",
+    "SrcTime": "175119",
+    "ReqNo": "20191226175119437227",
+    "GloSeqNo": "G020220191226175119338972",
+    "VrsNo": "100",
+    "ScnNo": "10",
+    "SrcSysId": "0202",
+    "SrcCalCod": "STM",
+    "GloEndTime": null,
+    "BrNo": "0019993081",
+    "ZoneNo": "0019900000",
+    "MyBank": "001",
+    "RespSts": null,
+    "SrvTranDt": null,
+    "TellerNo": "001C09428",
+    "TellerTp": "1",
+    "TechFlwMsg": null,
+    "SrcIP1": "10.33.108.32",
+    "SrcIP2": null
+  },
+  "AppHeader": {
+    "SessId": null,
+    "DevNo": "00100123",
+    "MbrNo": "0019993081",
+    "AuthbrNo": "001CS0004",
+    "DutyNo": null,
+    "ReSubmit": null,
+    "SrcReqNo": null,
+    "TellerName": null,
+    "CshBoxNo1": "",
+    "VchBoxNo1": "000003",
+    "tagsysheader": {},
+    "BillJson": "[{\"type\":\"00\"}]"
+  },
+  "APPBody": {
+    "pageflag": "1",
+    "maxnum": "20",
+    "devid": "00100123",
+    "boxtype": "0",
+    "cardboxnum": ""
+  }
+}

@@ -1,0 +1,103 @@
+package cn.com.agree.huanan.ap.al.io.service.cbs;
+
+import java.util.ArrayList;
+
+import org.springframework.stereotype.Component;
+
+import cn.com.agree.huanan.ap.al.io.system.esb.EsbCoreChannelService;
+import cn.com.agree.huanan.ap.rl.bank.base.constant.ContentEnum;
+import cn.com.agree.huanan.ap.tl.communicate.content.format.ArrayNode;
+import cn.com.agree.huanan.ap.tl.communicate.content.format.FieldNode;
+import cn.com.agree.huanan.ap.tl.communicate.content.format.MsgBody;
+import cn.com.agree.huanan.ap.tl.communicate.content.format.MsgField;
+import cn.com.agree.huanan.ap.tl.communicate.content.format.MsgSegment;
+import cn.com.agree.huanan.ap.tl.communicate.content.format.Node;
+import cn.com.agree.huanan.ap.tl.communicate.content.format.StructNode;
+
+/**
+ * BASESVC.P013000902 电子回单查询打印.客户电子回单打印 
+ * P0130009.02 br5377
+ * 0005 新核心系统
+ * @author XZF
+ */
+@Component
+public class P013000902 extends EsbCoreChannelService {
+
+	private static P013000902_I i = new P013000902_I();
+	private static P013000902_O o = new P013000902_O();
+	public P013000902() {
+		requestFormat.add(i);
+		responseFormat.add(o);
+	}
+
+	public static class P013000902_I extends MsgBody {
+		private MsgSegment  msgSegment = init();
+		private MsgSegment init(){
+			MsgSegment messageNode = new MsgSegment();
+			messageNode.addStructNode(new StructNode("APPBody",true)
+					.addNode(new FieldNode("qry_tp", new MsgField(ContentEnum.MessageType.STRING.toString(), "qry_tp", 1,0, false, "查询类型" )))
+					.addNode(new FieldNode("tlr_rung_num", new MsgField(ContentEnum.MessageType.STRING.toString(), "tlr_rung_num", 32,0, false, "柜员流水号号" )))
+					.addNode(new FieldNode("cust_acct_num", new MsgField(ContentEnum.MessageType.STRING.toString(), "cust_acct_num", 40,0, false, "客户账号" )))
+					.addNode(new FieldNode("sub_acct_serl_num", new MsgField(ContentEnum.MessageType.STRING.toString(), "sub_acct_serl_num", 8,0, false, "子账户序号" )))
+					.addNode(new FieldNode("strt_dt_8", new MsgField(ContentEnum.MessageType.STRING.toString(), "strt_dt_8", 8,0, false, "起始日期" )))
+					.addNode(new FieldNode("end_dt", new MsgField(ContentEnum.MessageType.STRING.toString(), "end_dt", 8,0, false, "终止日期" )))
+					);
+			return messageNode;
+		}
+		@Override
+		public ArrayList<Node> listNode() {
+			return msgSegment.getNodeList();
+		}
+
+	}
+
+	public static class P013000902_O extends MsgBody {
+		private MsgSegment  msgSegment = init();
+		private MsgSegment init(){
+			MsgSegment messageNode = new MsgSegment();
+			messageNode.addStructNode(new StructNode("APPBody",true)
+					.addNode(new FieldNode("cust_acct_num", new MsgField(ContentEnum.MessageType.STRING.toString(), "cust_acct_num", 40,0, false, "客户账号" )))
+					.addNode(new FieldNode("acct_nm", new MsgField(ContentEnum.MessageType.STRING.toString(), "acct_nm", 256,0, false, "账户名称" )))
+					.addNode(new ArrayNode("listnm_list",false)
+							.addNode(new FieldNode("txn_dt_8", new MsgField(ContentEnum.MessageType.STRING.toString(), "txn_dt_8", 8,0, false, "交易日期" )))
+							.addNode(new FieldNode("txn_tm", new MsgField(ContentEnum.MessageType.INT.toString(), "txn_tm", 10,0, false, "交易时间" )))
+							.addNode(new FieldNode("oprtg_org", new MsgField(ContentEnum.MessageType.STRING.toString(), "oprtg_org", 12,0, false, "营业机构" )))
+							.addNode(new FieldNode("txn_tlr", new MsgField(ContentEnum.MessageType.STRING.toString(), "txn_tlr", 10,0, false, "交易柜员" )))
+							.addNode(new FieldNode("tlr_rung_num", new MsgField(ContentEnum.MessageType.STRING.toString(), "tlr_rung_num", 32,0, false, "柜员流水号号" )))
+							.addNode(new FieldNode("txn_code", new MsgField(ContentEnum.MessageType.STRING.toString(), "txn_code", 20,0, false, "交易码" )))
+							.addNode(new FieldNode("cust_num", new MsgField(ContentEnum.MessageType.STRING.toString(), "cust_num", 32,0, false, "客户号" )))
+							.addNode(new FieldNode("open_acct_org", new MsgField(ContentEnum.MessageType.STRING.toString(), "open_acct_org", 12,0, false, "账户开户机构" )))
+							.addNode(new FieldNode("sub_acct_serl_num", new MsgField(ContentEnum.MessageType.STRING.toString(), "sub_acct_serl_num", 8,0, false, "子账户序号" )))
+							.addNode(new FieldNode("acct_num", new MsgField(ContentEnum.MessageType.STRING.toString(), "acct_num", 40,0, false, "账号" )))
+							.addNode(new FieldNode("acct_nm", new MsgField(ContentEnum.MessageType.STRING.toString(), "acct_nm", 256,0, false, "账户名称" )))
+							.addNode(new FieldNode("cust_acct_num", new MsgField(ContentEnum.MessageType.STRING.toString(), "cust_acct_num", 40,0, false, "客户账号" )))
+							.addNode(new FieldNode("txn_serl_num", new MsgField(ContentEnum.MessageType.INT.toString(), "txn_serl_num", 10,0, false, "交易序号" )))
+							.addNode(new FieldNode("ccy_code_num", new MsgField(ContentEnum.MessageType.STRING.toString(), "ccy_code_num", 3,0, false, "货币代号" )))
+							.addNode(new FieldNode("cash_rmtc_flg", new MsgField(ContentEnum.MessageType.STRING.toString(), "cash_rmtc_flg", 1,0, false, "钞汇标志" )))
+							.addNode(new FieldNode("db_cr_flg", new MsgField(ContentEnum.MessageType.STRING.toString(), "db_cr_flg", 1,0, false, "借贷标志" )))
+							.addNode(new FieldNode("txn_amt", new MsgField(ContentEnum.MessageType.INT.toString(), "txn_amt", 18,2, false, "交易金额" )))
+							.addNode(new FieldNode("acct_bal", new MsgField(ContentEnum.MessageType.INT.toString(), "acct_bal", 18,2, false, "账户余额" )))
+							.addNode(new FieldNode("cntpr_cust_acct_num", new MsgField(ContentEnum.MessageType.STRING.toString(), "cntpr_cust_acct_num", 40,0, false, "交易对手账号" )))
+							.addNode(new FieldNode("cntpr_lblty_acct_num", new MsgField(ContentEnum.MessageType.STRING.toString(), "cntpr_lblty_acct_num", 40,0, false, "对方账号" )))
+							.addNode(new FieldNode("cntpr_acct_nm", new MsgField(ContentEnum.MessageType.STRING.toString(), "cntpr_acct_nm", 256,0, false, "对方户名" )))
+							.addNode(new FieldNode("cntpr_fincl_org_tp", new MsgField(ContentEnum.MessageType.STRING.toString(), "cntpr_fincl_org_tp", 2,0, false, "对方金融机构网点类型" )))
+							.addNode(new FieldNode("cntpr_fincl_org_code", new MsgField(ContentEnum.MessageType.STRING.toString(), "cntpr_fincl_org_code", 20,0, false, "对方金融机构网点代码" )))
+							.addNode(new FieldNode("cntpr_fincl_org_nm", new MsgField(ContentEnum.MessageType.STRING.toString(), "cntpr_fincl_org_nm", 300,0, false, "对方金融机构网点名称" )))
+							.addNode(new FieldNode("abst_code", new MsgField(ContentEnum.MessageType.STRING.toString(), "abst_code", 10,0, false, "摘要代码" )))
+							.addNode(new FieldNode("abst_dsc", new MsgField(ContentEnum.MessageType.STRING.toString(), "abst_dsc", 225,0, false, "摘要描述" )))
+							.addNode(new FieldNode("chnl_code", new MsgField(ContentEnum.MessageType.STRING.toString(), "chnl_code", 7,0, false, "渠道代码" )))
+							.addNode(new FieldNode("remks_info", new MsgField(ContentEnum.MessageType.STRING.toString(), "remks_info", 300,0, false, "备注信息" )))
+							.addNode(new FieldNode("prt_flg", new MsgField(ContentEnum.MessageType.STRING.toString(), "prt_flg", 1,0, false, "打印标志" )))
+							.addNode(new FieldNode("prt_cnt", new MsgField(ContentEnum.MessageType.INT.toString(), "prt_cnt", 10,0, false, "打印次数" )))
+							).addNode(new FieldNode("tlr_rung_num", new MsgField(ContentEnum.MessageType.STRING.toString(), "tlr_rung_num", 32,0, false, "柜员流水号号" )))
+					.addNode(new FieldNode("rept_route", new MsgField(ContentEnum.MessageType.STRING.toString(), "rept_route", 750,0, false, "报表路径" )))
+					);
+			return messageNode;
+		}
+		@Override
+		public ArrayList<Node> listNode() {
+			return msgSegment.getNodeList();
+		}
+	}
+}
+

@@ -1,0 +1,12 @@
+
+ap.rl:
+  componentScan.basePackages:   >-
+    cn.com.agree.huanan.ap.tl, 
+    cn.com.agree.huanan.ap.rl.aptl, 
+    cn.com.agree.huanan.ap.rl.agree.afa, 
+    cn.com.agree.huanan.ap.al.APTL, 
+    cn.com.agree.huanan.ap.al.ectip, 
+    cn.com.agree.huanan.ap.rl.corp.message, 
+    cn.com.agree.huanan.ap.rl.corp.commnunicate,
+    cn.com.agree.huanan.ap.rl.bank
+  

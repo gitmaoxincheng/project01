@@ -1,0 +1,18 @@
+
+logging.pattern.console:        "%d{HH:mm:ss.SSS} [%-10thread] %-5level [%-25logger{0}] : %msg%n"
+
+
+ap.rl:
+  componentScan.basePackages:   >-
+    cn.com.agree.huanan.ap.tl, 
+    cn.com.agree.huanan.ap.al.APTL, 
+    cn.com.agree.huanan.ap.rl.aptl, 
+    cn.com.agree.huanan.ap.rl.corp.console, 
+    cn.com.agree.huanan.ap.rl.corp.slf4j
+
+  console:
+    datasource:
+      driver-class-name:  oracle.jdbc.OracleDriver
+      url:                jdbc:oracle:thin:@192.9.210.94:41521:XE
+      username:           ectip
+      password:           ectip

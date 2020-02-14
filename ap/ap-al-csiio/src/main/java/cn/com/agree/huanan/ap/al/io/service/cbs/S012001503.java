@@ -1,0 +1,82 @@
+package cn.com.agree.huanan.ap.al.io.service.cbs;
+
+import java.util.ArrayList;
+
+import org.springframework.stereotype.Component;
+
+import cn.com.agree.huanan.ap.al.io.system.esb.EsbCoreChannelService;
+import cn.com.agree.huanan.ap.rl.bank.base.constant.ContentEnum;
+import cn.com.agree.huanan.ap.tl.communicate.content.format.ArrayNode;
+import cn.com.agree.huanan.ap.tl.communicate.content.format.FieldNode;
+import cn.com.agree.huanan.ap.tl.communicate.content.format.MsgBody;
+import cn.com.agree.huanan.ap.tl.communicate.content.format.MsgField;
+import cn.com.agree.huanan.ap.tl.communicate.content.format.MsgSegment;
+import cn.com.agree.huanan.ap.tl.communicate.content.format.Node;
+import cn.com.agree.huanan.ap.tl.communicate.content.format.StructNode;
+
+/**
+ * S0120015.03 机构解除平账  交易码：br5333
+ * @author lixq 
+ */
+@Component
+public class S012001503 extends EsbCoreChannelService {
+
+	private static S012001503_I i = new S012001503_I();
+	private static S012001503_O o = new S012001503_O();
+	public S012001503() {
+        requestFormat.add(i);
+        responseFormat.add(o);
+	}
+
+	
+	public static class S012001503_I extends MsgBody {
+		private MsgSegment  msgSegment = init();
+		private MsgSegment init(){
+			MsgSegment messageNode = new MsgSegment();
+			
+			StructNode BODY = new StructNode("APPBody");
+			FieldNode oprtg_org = new FieldNode("oprtg_org", new MsgField(ContentEnum.MessageType.STRING.toString(), "oprtg_org", 12,0, true, "营业机构" ));
+			FieldNode wthr_cfm_acct_oprn = new FieldNode("wthr_cfm_acct_oprn", new MsgField(ContentEnum.MessageType.STRING.toString(), "wthr_cfm_acct_oprn", 1,0, true, "是否平账操作"));					
+
+			BODY.addNode(oprtg_org);
+			BODY.addNode(wthr_cfm_acct_oprn);
+			
+			messageNode.addStructNode(BODY);
+			return messageNode;
+		}  
+
+		@Override
+		public ArrayList<Node> listNode() {
+			return msgSegment.getNodeList();
+		}
+		
+	}
+	
+	public static class S012001503_O extends MsgBody {
+		private MsgSegment  msgSegment = init();
+		private MsgSegment init(){
+			MsgSegment messageNode = new MsgSegment();
+			StructNode  BODY= new StructNode("APPBody");
+			
+			BODY.addNode(new FieldNode("mber_qty", new MsgField(ContentEnum.MessageType.STRING.toString(), "mber_qty", 10,0, false, "成员数量")));
+			BODY.addNode(new FieldNode("tlr_enfrc_sign_out_info", new MsgField(ContentEnum.MessageType.STRING.toString(), "tlr_enfrc_sign_out_info", 300,0, false, "柜员强签信息")));
+			
+			
+			ArrayNode arrayNode = new ArrayNode("listnm");
+			arrayNode.addNode(new FieldNode("fgrd_txn_code", new MsgField(ContentEnum.MessageType.STRING.toString(), "fgrd_txn_code", 20,0, false, "前台交易码")));
+			arrayNode.addNode(new FieldNode("txn_code", new MsgField(ContentEnum.MessageType.STRING.toString(), "txn_code", 20,0, false, "交易码")));
+			arrayNode.addNode(new FieldNode("next_txn_code", new MsgField(ContentEnum.MessageType.STRING.toString(), "next_txn_code", 20,0, false, "下一交易码")));
+			arrayNode.addNode(new FieldNode("lkg_mode", new MsgField(ContentEnum.MessageType.STRING.toString(), "lkg_mode", 1,0, false, "联动模式")));		
+			BODY.addNode(arrayNode);
+			
+			messageNode.addStructNode(BODY);
+			return messageNode;
+		}  
+
+		@Override
+		public ArrayList<Node> listNode() {
+			return msgSegment.getNodeList();
+		}
+		
+	}
+}

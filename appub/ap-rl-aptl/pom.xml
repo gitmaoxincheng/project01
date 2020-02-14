@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<artifactId>ap-rl-aptl</artifactId>
+	<packaging>jar</packaging>
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.agree</groupId>
+		<artifactId>ap</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+		<!-- relativePath>../pom.xml</relativePath -->
+	</parent>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.agree</groupId>
+			<artifactId>ap-tl</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<sourceDirectory>src/main/java</sourceDirectory>
+		<testSourceDirectory>src/test/java</testSourceDirectory>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>wagon-maven-plugin</artifactId>
+				<version>1.0</version>
+				<configuration>
+					<fromFile>target/ap-rl-aptl-0.0.1-SNAPSHOT.jar</fromFile>
+					<url>scp://afa4j:afa4j@192.9.210.94/home/afa4j/AFA4J_2.7.1_1207/workspace/share/tech_component</url>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

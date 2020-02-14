@@ -1,0 +1,17 @@
+
+apply plugin: 'java-library'
+apply plugin: 'eclipse'
+
+dependencies {
+    implementation(project(':ap-tl'))
+    compile(files('/libs/afa4i-2.7.jar'))
+}
+
+
+// sourceSets.main.java.srcDir "../ap-rl/src/main/java"
+
+
+ext {
+    appId = 'APRL';
+}
+

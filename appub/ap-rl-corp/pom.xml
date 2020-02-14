@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<artifactId>ap-rl-corp</artifactId>
+	<packaging>jar</packaging>
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.agree</groupId>
+		<artifactId>ap</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+		<!-- relativePath>../pom.xml</relativePath -->
+	</parent>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.agree</groupId>
+			<artifactId>ap-tl</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<sourceDirectory>src/main/java</sourceDirectory>
+		<testSourceDirectory>src/test/java</testSourceDirectory>
+	</build>
+
+</project>
