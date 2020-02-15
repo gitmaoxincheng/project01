@@ -1,0 +1,24 @@
+2020-02-14 22:06:16,832 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.agree:ap:1.0.0-SNAPSHOT @ D:\MyGitHub\project01\ap\pom.xml.
+2020-02-14 22:07:37,065 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.agree:ap-ml:1.0.0-SNAPSHOT @ D:\MyGitHub\project01\ap\ap-ml\pom.xml.
+2020-02-14 22:07:37,665 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ap-ml/src/main/java
+2020-02-14 22:07:37,665 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ap-ml/src/main/resources
+2020-02-14 22:07:37,755 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ap-ml/src/main/resources
+2020-02-14 22:07:37,775 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ap-ml/src/test/java
+2020-02-14 22:07:37,775 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ap-ml/src/test/resources
+2020-02-14 22:07:39,685 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-14 22:07:39,695 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-14 22:07:39,695 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-14 22:07:39,705 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-14 22:07:39,705 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-14 22:07:40,315 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.agree:ap:1.0.0-SNAPSHOT @ D:\MyGitHub\project01\ap\pom.xml.
+2020-02-14 22:07:41,538 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.agree:ap-ml:1.0.0-SNAPSHOT @ D:\MyGitHub\project01\ap\ap-ml\pom.xml.
+2020-02-14 22:07:42,308 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-14 22:07:42,318 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-14 22:07:42,318 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-14 22:07:42,318 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-14 22:07:42,318 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-14 22:11:38,043 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mao:hx:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\pom.xml.
+2020-02-14 22:11:38,163 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hx/src/main/java
+2020-02-14 22:11:38,163 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hx/src/main/resources
+2020-02-14 22:11:38,173 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hx/src/test/java
+2020-02-14 22:11:38,173 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hx/src/test/resources

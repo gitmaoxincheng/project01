@@ -25,6 +25,7 @@
 		<module>ap-al-csicop</module>
 		<module>ap-al-csiio</module>
 		<module>ap-al-atmp</module>
+		<module>ap-ml</module>
 	</modules>
 
 	<properties>

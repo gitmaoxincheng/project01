@@ -19,6 +19,25 @@
 <entry path="D:\agree\afa\jre\lib\endorsed"/>
 </endorsedDirs>
 </libraryInfo>
+<libraryInfo home="D:\JAVA\jdk1.8" version="1.8.0_191">
+<bootpath>
+<entry path="D:\JAVA\jdk1.8\jre\lib\resources.jar"/>
+<entry path="D:\JAVA\jdk1.8\jre\lib\rt.jar"/>
+<entry path="D:\JAVA\jdk1.8\jre\lib\sunrsasign.jar"/>
+<entry path="D:\JAVA\jdk1.8\jre\lib\jsse.jar"/>
+<entry path="D:\JAVA\jdk1.8\jre\lib\jce.jar"/>
+<entry path="D:\JAVA\jdk1.8\jre\lib\charsets.jar"/>
+<entry path="D:\JAVA\jdk1.8\jre\lib\jfr.jar"/>
+<entry path="D:\JAVA\jdk1.8\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="D:\JAVA\jdk1.8\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="D:\JAVA\jdk1.8\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
 <libraryInfo home="D:\agree\afa\jre" version="1.8.0_102">
 <bootpath>
 <entry path="D:\agree\afa\jre\lib\resources.jar"/>
