@@ -14,7 +14,7 @@ public interface AtmBussFlowDao {
 	/**
 	 * 登记特色p交易业务流水表
 	 * @param atmpMap 
-	 * @return
+	 * @return qqqqqq
 	 */
 	public int insertBuss(Map<String,Object>atmpMap);
 	
