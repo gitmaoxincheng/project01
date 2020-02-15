@@ -1,1 +1,9 @@
+/.gradle/
+.idea
 .metadata
+.setting
+.class
+.bin
+.output
+/publicWorkflow/output/
+/dataModule/dataObject/output/
