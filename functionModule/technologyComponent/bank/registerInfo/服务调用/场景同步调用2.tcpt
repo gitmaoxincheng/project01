@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>7EE3ED48563B83B29CCE6B6F82E0D40B</UUID>
+  <Target>tc.bank.base.service.B_ServiceInvoker.B_syncInvoke4</Target>
+  <Desp>场景同步调用2</Desp>
+  <Group>服务调用</Group>
+  <Level>1</Level>
+  <Style>2</Style>
+  <Type>1</Type>
+  <CustomedAsyncMode>1</CustomedAsyncMode>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>场景同步调用，返回状态分别为失败，成功，异常，部分成功，处理中共五种， 调用异常如超时，熔断，服务未启动等归类为异常。平台服务调度的目前扩展入参主要有__ReqNo__传递流水号，__ST__ 场景区分标识</ToolTip>
+  <InArgs>
+    <Total>4</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>serviceCode</Name>
+      <Type>java.lang.String</Type>
+      <Desc>服务码</Desc>
+    </Arg>
+    <Arg>
+      <Name>scenarioCode</Name>
+      <Type>java.lang.String</Type>
+      <Desc>场景码</Desc>
+    </Arg>
+    <Arg>
+      <Name>params</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>请求入参</Desc>
+    </Arg>
+    <Arg>
+      <Name>attachment</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>扩展参数</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>result</Name>
+      <Type>Object</Type>
+      <Desc>返回结果</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>3</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+    <RET2>异常</RET2>
+  </Logic>
+  <Path>/functionModule/technologyComponent/bank/componentSourceCode/tc/bank/base/service/B_ServiceInvoker.java</Path>
+</Component>

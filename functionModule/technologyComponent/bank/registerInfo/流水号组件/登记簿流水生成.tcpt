@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>E64C222DA88C592D01E33F497A806CCC</UUID>
+  <Target>tc.bank.base.util.B_SernoUtil.B_genRegistSerno</Target>
+  <Desp>登记簿流水生成</Desp>
+  <Group>流水号组件</Group>
+  <Level>1</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip></ToolTip>
+  <InArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>seqName</Name>
+      <Type>java.lang.String</Type>
+      <Desc>流水标识</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>serNo</Name>
+      <Type>java.lang.String</Type>
+      <Desc>流水号</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/bank/componentSourceCode/tc/bank/base/util/B_SernoUtil.java</Path>
+</Component>

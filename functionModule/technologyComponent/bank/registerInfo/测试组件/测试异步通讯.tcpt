@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>08A63556B6FE7D5368FCC38C318B2F53</UUID>
+  <Target>tc.bank.communicate.B_ChannelCommPackage2.B_TestAsyn</Target>
+  <Desp>测试异步通讯</Desp>
+  <Group>测试组件</Group>
+  <Level>1</Level>
+  <Style>2</Style>
+  <Type>1</Type>
+  <CustomedAsyncMode>1</CustomedAsyncMode>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip></ToolTip>
+  <InArgs>
+    <Total>0</Total>
+    <Type>0</Type>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>future</Name>
+      <Type>Object</Type>
+      <Desc>错误信息</Desc>
+      <LogLevel>3</LogLevel>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>4</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+    <RET2>未知业务状态</RET2>
+    <RET3>异常</RET3>
+  </Logic>
+  <Path>/functionModule/technologyComponent/bank/componentSourceCode/tc/bank/communicate/B_ChannelCommPackage2.java</Path>
+</Component>

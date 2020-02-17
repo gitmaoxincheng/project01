@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>CE46A80C99326B2EE1050C3586C3AF1B</UUID>
+  <Target>tc.bank.communicate.B_ChannelCommPackage2.B_packMessage</Target>
+  <Desp>拼接报文-使用IO表</Desp>
+  <Group>测试组件</Group>
+  <Level>1</Level>
+  <Style>0</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>在cn.com.agree.huanan.ap.rl.bank.gnxcomm.io路径下根据需要通讯的系统,继承一个system里的父类,创建一个service服务类.
+组件根据MC,TC找到对应的服务,实现对应的服务</ToolTip>
+  <InArgs>
+    <Total>5</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>REQ</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>交易上下文</Desc>
+      <LogLevel>3</LogLevel>
+    </Arg>
+    <Arg>
+      <Name>systemID</Name>
+      <Type>java.lang.String</Type>
+      <Desc>系统标识-对应service下的目录</Desc>
+      <LogLevel>3</LogLevel>
+    </Arg>
+    <Arg>
+      <Name>mc</Name>
+      <Type>java.lang.String</Type>
+      <Desc>交易服务码</Desc>
+      <LogLevel>3</LogLevel>
+    </Arg>
+    <Arg>
+      <Name>tc</Name>
+      <Type>java.lang.String</Type>
+      <Desc>交易场景码</Desc>
+      <LogLevel>3</LogLevel>
+    </Arg>
+    <Arg>
+      <Name>isCheckMessage</Name>
+      <Type>boolean</Type>
+      <Desc>是否校验报文字段</Desc>
+      <DefaultParam>true</DefaultParam>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>requestMessage</Name>
+      <Type>java.lang.String</Type>
+      <Desc>请求报文</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>1</Total>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/bank/componentSourceCode/tc/bank/communicate/B_ChannelCommPackage2.java</Path>
+</Component>

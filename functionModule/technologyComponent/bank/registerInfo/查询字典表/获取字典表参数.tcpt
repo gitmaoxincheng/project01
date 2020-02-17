@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>503CD13647B3ED481F8E627FC1F534B8</UUID>
+  <Target>tc.bank.dict.B_DictItem.B_getDictItem</Target>
+  <Desp>获取字典表参数</Desp>
+  <Group>查询字典表</Group>
+  <Level>1</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip></ToolTip>
+  <InArgs>
+    <Total>2</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>eName</Name>
+      <Type>java.lang.String</Type>
+      <Desc>主字典分类名</Desc>
+    </Arg>
+    <Arg>
+      <Name>key</Name>
+      <Type>java.lang.String</Type>
+      <Desc>子字典key</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>value</Name>
+      <Type>java.lang.String</Type>
+      <Desc>子字典value</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/bank/componentSourceCode/tc/bank/dict/B_DictItem.java</Path>
+</Component>

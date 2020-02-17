@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>311E0CAFAE5E19E9124F7C1B2B506D7D</UUID>
+  <Target>tc.bank.ias.B_IASManager.B_heightQuery</Target>
+  <Desp>影像高级查询</Desp>
+  <Group>影像平台</Group>
+  <Level>1</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>影像高级查询</ToolTip>
+  <InArgs>
+    <Total>3</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>serialno</Name>
+      <Type>java.lang.String</Type>
+      <Desc>流水号</Desc>
+    </Arg>
+    <Arg>
+      <Name>modetype</Name>
+      <Type>java.lang.String</Type>
+      <Desc>影像模型</Desc>
+    </Arg>
+    <Arg>
+      <Name>tradedate</Name>
+      <Type>java.lang.String</Type>
+      <Desc>影像上传日期</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>contendId</Name>
+      <Type>java.lang.String</Type>
+      <Desc>批次号</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/bank/componentSourceCode/tc/bank/ias/B_IASManager.java</Path>
+</Component>

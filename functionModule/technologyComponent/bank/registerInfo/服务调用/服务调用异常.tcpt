@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>0951B82781CB08A8ED11CFE908227012</UUID>
+  <Target>tc.bank.base.service.B_ServiceInvoker.B_serviceInvokeFail</Target>
+  <Desp>服务调用异常</Desp>
+  <Group>服务调用</Group>
+  <Level>1</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>服务异常返回</ToolTip>
+  <InArgs>
+    <Total>3</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>serviceCode</Name>
+      <Type>java.lang.String</Type>
+      <Desc>服务码</Desc>
+    </Arg>
+    <Arg>
+      <Name>scenarioCode</Name>
+      <Type>java.lang.String</Type>
+      <Desc>场景码</Desc>
+    </Arg>
+    <Arg>
+      <Name>type</Name>
+      <Type>java.lang.Integer</Type>
+      <Desc>类型</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>0</Total>
+    <Type>0</Type>
+  </OutArgs>
+  <Logic>
+    <Total>1</Total>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/bank/componentSourceCode/tc/bank/base/service/B_ServiceInvoker.java</Path>
+</Component>

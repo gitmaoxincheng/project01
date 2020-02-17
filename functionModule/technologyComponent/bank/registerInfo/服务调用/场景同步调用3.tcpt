@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>5887280FF72819DA0D02B890F9BDB0BD</UUID>
+  <Target>tc.bank.base.service.B_ServiceInvoker.B_syncInvoke3</Target>
+  <Desp>场景同步调用3</Desp>
+  <Group>服务调用</Group>
+  <Level>1</Level>
+  <Style>2</Style>
+  <Type>1</Type>
+  <CustomedAsyncMode>1</CustomedAsyncMode>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>场景同步调用，返回状态分别为失败，成功，异常，部分成功，处理中共五种， 调用异常如超时，熔断，服务未启动等归类为异常</ToolTip>
+  <InArgs>
+    <Total>3</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>serviceCode</Name>
+      <Type>java.lang.String</Type>
+      <Desc>服务码</Desc>
+    </Arg>
+    <Arg>
+      <Name>scenarioCode</Name>
+      <Type>java.lang.String</Type>
+      <Desc>场景码</Desc>
+    </Arg>
+    <Arg>
+      <Name>params</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>请求入参</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>result</Name>
+      <Type>Object</Type>
+      <Desc>返回结果</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>5</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+    <RET2>异常</RET2>
+    <RET3>部分成功</RET3>
+    <RET4>处理中</RET4>
+  </Logic>
+  <Path>/functionModule/technologyComponent/bank/componentSourceCode/tc/bank/base/service/B_ServiceInvoker.java</Path>
+</Component>

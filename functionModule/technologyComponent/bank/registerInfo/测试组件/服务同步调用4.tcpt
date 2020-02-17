@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>60E6A809D6B7FF755634B1EBF09D0C2B</UUID>
+  <Target>tc.bank.base.service.B_ServiceInvoker3.B_syncSvcInvoke4</Target>
+  <Desp>服务同步调用4</Desp>
+  <Group>测试组件</Group>
+  <Level>1</Level>
+  <Style>2</Style>
+  <Type>1</Type>
+  <CustomedAsyncMode>1</CustomedAsyncMode>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>服务同步调用</ToolTip>
+  <InArgs>
+    <Total>3</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>serviceFlag</Name>
+      <Type>java.lang.String</Type>
+      <Desc>服务场景标识</Desc>
+    </Arg>
+    <Arg>
+      <Name>params</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>请求入参</Desc>
+    </Arg>
+    <Arg>
+      <Name>attachment</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>扩展参数</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>result</Name>
+      <Type>Object</Type>
+      <Desc>返回结果</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>3</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+    <RET2>异常</RET2>
+  </Logic>
+  <Path>/functionModule/technologyComponent/bank/componentSourceCode/tc/bank/base/service/B_ServiceInvoker3.java</Path>
+</Component>
