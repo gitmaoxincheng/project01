@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<groupId>functionModule</groupId>
+	<artifactId>functionModule</artifactId>
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.agree</groupId>
+		<artifactId>ap</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+		<!-- relativePath>../pom.xml</relativePath -->
+	</parent>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.agree</groupId>
+			<artifactId>ap-rl-afa</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.agree</groupId>
+			<artifactId>ap-tl</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.agree</groupId>
+			<artifactId>ap-rl-bank</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.agree</groupId>
+			<artifactId>ap-al-csiopr</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.agree</groupId>
+			<artifactId>ap-al-csitrd</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.agree</groupId>
+			<artifactId>ap-al-csiusr</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.agree</groupId>
+			<artifactId>ap-al-csicop</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.agree</groupId>
+			<artifactId>ap-al-atmp</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+
+	<!-- <build> <sourceDirectory>technologyComponent/bank/componentSourceCode</sourceDirectory> 
+		<testSourceDirectory>technologyComponent/projects/OrgSer/Test/componentSourceCode</testSourceDirectory> 
+		<resources> <resource> <directory>technologyComponent/projects/mids_service/pin/componentSourceCode</directory> 
+		<excludes> <exclude>**/*.java</exclude> </excludes> </resource> </resources> 
+		<testResources> <testResource> <directory>technologyComponent/projects/OrgSer/Test/componentSourceCode</directory> 
+		<excludes> <exclude>**/*.java</exclude> </excludes> </testResource> <testResource> 
+		<directory>technologyComponent/projects/mids_app/test/componentSourceCode</directory> 
+		<excludes> <exclude>**/*.java</exclude> </excludes> </testResource> </testResources> 
+		</build> -->
+
+	<!-- <repositories> <repository> <id>maven-public</id> <name>maven-public</name> 
+		<url>http://96.0.68.101:8805/repository/maven-public/</url> <releases> <enabled>true</enabled> 
+		</releases> <snapshots> <enabled>true</enabled> </snapshots> </repository> 
+		</repositories> <pluginRepositories> <pluginRepository> <id>maven-public</id> 
+		<name>maven-public</name> <url>http://96.0.68.101:8805/repository/maven-public/</url> 
+		</pluginRepository> </pluginRepositories> -->
+
+</project>
