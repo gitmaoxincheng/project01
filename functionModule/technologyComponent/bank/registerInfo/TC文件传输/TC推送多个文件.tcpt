@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>AE411DE38B7040DB2CF24A9E6047CCA5</UUID>
+  <Target>tc.bank.file.topconnect.B_TcUtil.B_putMultiFile</Target>
+  <Desp>TC推送多个文件</Desp>
+  <Group>TC文件传输</Group>
+  <Level>1</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>其中fileMap的key为srcFile,value为desFile</ToolTip>
+  <InArgs>
+    <Total>5</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>pNodeCode</Name>
+      <Type>java.lang.String</Type>
+      <Desc>主节点标识码</Desc>
+    </Arg>
+    <Arg>
+      <Name>sNodeCode</Name>
+      <Type>java.lang.String</Type>
+      <Desc>次节点标识码</Desc>
+    </Arg>
+    <Arg>
+      <Name>pFileDirCode</Name>
+      <Type>java.lang.String</Type>
+      <Desc>主节点文件目录标识码</Desc>
+    </Arg>
+    <Arg>
+      <Name>sFileDirCode</Name>
+      <Type>java.lang.String</Type>
+      <Desc>次节点文件目录标识码</Desc>
+    </Arg>
+    <Arg>
+      <Name>fileMap</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>文件名称集合</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>0</Total>
+    <Type>0</Type>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/bank/componentSourceCode/tc/bank/file/topconnect/B_TcUtil.java</Path>
+</Component>

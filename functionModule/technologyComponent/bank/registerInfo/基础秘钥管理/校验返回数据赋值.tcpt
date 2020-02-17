@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>AF2C8084DF50BA7E772C42E55A54CA0C</UUID>
+  <Target>tc.bank.encrypt.B_BaseKey.B_checkData</Target>
+  <Desp>校验返回数据赋值</Desp>
+  <Group>基础秘钥管理</Group>
+  <Level>1</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip></ToolTip>
+  <InArgs>
+    <Total>3</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>ErrorCode</Name>
+      <Type>java.lang.String</Type>
+      <Desc>后台成功标识</Desc>
+    </Arg>
+    <Arg>
+      <Name>reqData</Name>
+      <Type>java.util.Map</Type>
+      <Desc>入参数据</Desc>
+    </Arg>
+    <Arg>
+      <Name>param</Name>
+      <Type>java.lang.String</Type>
+      <Desc>校验参数值</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>rspData</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>返回数据</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/bank/componentSourceCode/tc/bank/encrypt/B_BaseKey.java</Path>
+</Component>

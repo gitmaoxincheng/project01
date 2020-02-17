@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>D8048D6130060D60C96258C39E0088FB</UUID>
+  <Target>tc.bank.message.B_ABTradeMessageSender.oneWayByOid</Target>
+  <Desp>给制定oid客户指定交易发送消息</Desp>
+  <Group>AB交易组件</Group>
+  <Level>1</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>给制定oid客户指定交易异步发送消息</ToolTip>
+  <InArgs>
+    <Total>5</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>parentConnectionUrl</Name>
+      <Type>java.lang.String</Type>
+      <Desc>服务器地址</Desc>
+    </Arg>
+    <Arg>
+      <Name>clientOid</Name>
+      <Type>java.lang.String</Type>
+      <Desc>客户端Oid</Desc>
+    </Arg>
+    <Arg>
+      <Name>tradeCode</Name>
+      <Type>java.lang.String</Type>
+      <Desc>AB交易码</Desc>
+    </Arg>
+    <Arg>
+      <Name>app</Name>
+      <Type>java.lang.String</Type>
+      <Desc>消息类型</Desc>
+    </Arg>
+    <Arg>
+      <Name>message</Name>
+      <Type>java.lang.String</Type>
+      <Desc>消息内容</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>0</Total>
+    <Type>0</Type>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/bank/componentSourceCode/tc/bank/message/B_ABTradeMessageSender.java</Path>
+</Component>

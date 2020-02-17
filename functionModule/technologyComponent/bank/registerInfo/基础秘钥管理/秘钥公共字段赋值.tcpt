@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>3E2588484CDBFB679907C00C8DEC17BA</UUID>
+  <Target>tc.bank.encrypt.B_BaseKey.B_keyPublicParse</Target>
+  <Desp>秘钥公共字段赋值</Desp>
+  <Group>基础秘钥管理</Group>
+  <Level>1</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip></ToolTip>
+  <InArgs>
+    <Total>3</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>transFlag</Name>
+      <Type>java.lang.String</Type>
+      <Desc>传输标志</Desc>
+      <DefaultParam>"1"</DefaultParam>
+    </Arg>
+    <Arg>
+      <Name>userInfo</Name>
+      <Type>java.lang.String</Type>
+      <Desc>用户信息</Desc>
+    </Arg>
+    <Arg>
+      <Name>request</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>渠道入参</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>returnData</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>返回数据</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/bank/componentSourceCode/tc/bank/encrypt/B_BaseKey.java</Path>
+</Component>

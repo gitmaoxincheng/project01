@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>CBA04BDB2576C29FB0651DF9BC0E57BB</UUID>
+  <Target>tc.bank.encrypt.B_BaseKey.B_updateKey</Target>
+  <Desp>更新终端秘钥</Desp>
+  <Group>基础秘钥管理</Group>
+  <Level>1</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip></ToolTip>
+  <InArgs>
+    <Total>2</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>devno</Name>
+      <Type>java.lang.String</Type>
+      <Desc>设备号</Desc>
+    </Arg>
+    <Arg>
+      <Name>keyType</Name>
+      <Type>java.lang.String</Type>
+      <Desc>秘钥类型</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>returnDict</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>返回秘钥数据</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/bank/componentSourceCode/tc/bank/encrypt/B_BaseKey.java</Path>
+</Component>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>1FE9C9D823BB0DA296B43A5573C6A226</UUID>
+  <Target>tc.bank.base.component.B_Base.B_handleBaseRes</Target>
+  <Desp>服务响应结果判断</Desp>
+  <Group>基础组件库</Group>
+  <Level>1</Level>
+  <Style>2</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>处理服务调用响应报文，并根据结果状态处理</ToolTip>
+  <InArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>msgDict</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>服务响应报文容器</Desc>
+      <DefaultParam>__REQ__</DefaultParam>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>0</Total>
+    <Type>0</Type>
+  </OutArgs>
+  <Logic>
+    <Total>5</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+    <RET2>异常</RET2>
+    <RET3>部分成功</RET3>
+    <RET4>处理中</RET4>
+  </Logic>
+  <Path>/functionModule/technologyComponent/bank/componentSourceCode/tc/bank/base/component/B_Base.java</Path>
+</Component>

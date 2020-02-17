@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>40D3FDBC1778A6805BD64EAD5890E850</UUID>
+  <Target>tc.bank.encrypt.B_BaseKey.B_applyFinalKey</Target>
+  <Desp>申请终端秘钥</Desp>
+  <Group>基础秘钥管理</Group>
+  <Level>1</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip></ToolTip>
+  <InArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>devno</Name>
+      <Type>java.lang.String</Type>
+      <Desc>设备号</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>returnDict</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>秘钥校验值</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/bank/componentSourceCode/tc/bank/encrypt/B_BaseKey.java</Path>
+</Component>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>68EE46C1E80809D7D76DAD56EECB8549</UUID>
+  <Target>tc.bank.base.util.B_Des.B_desEncrypt</Target>
+  <Desp>des加密</Desp>
+  <Group>des加密</Group>
+  <Level>1</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip></ToolTip>
+  <InArgs>
+    <Total>2</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>sourceStr</Name>
+      <Type>java.lang.String</Type>
+      <Desc>原字符串</Desc>
+    </Arg>
+    <Arg>
+      <Name>key</Name>
+      <Type>java.lang.String</Type>
+      <Desc>密钥</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>destStr</Name>
+      <Type>java.lang.String</Type>
+      <Desc>密文</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/bank/componentSourceCode/tc/bank/base/util/B_Des.java</Path>
+</Component>
