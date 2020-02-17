@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Flag>
+	
+  
+  <Version>1.0</Version>
+	
+  
+  <Name/>
+	
+  
+  <Desc>服务接入组件包</Desc>
+  <Security>    <Readonly>9D87A4DE0849CAB9</Readonly>
+    <TokenLevel>EAC84C5C818312AB</TokenLevel>
+  </Security>
+</Flag>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Flag>
+	
+  
+  <Version>1.0</Version>
+	
+  
+  <Name/>
+	
+  
+  <Desc>渠道通讯服务组件</Desc>
+  <Security>    <Readonly>02D5D1E9A631B705</Readonly>
+    <TokenLevel>4FF867BB721C64E2</TokenLevel>
+  </Security>
+</Flag>
