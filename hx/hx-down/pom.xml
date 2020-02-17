@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <!-- 版本说明 -->
+  <modelVersion>4.0.0</modelVersion>
+  <!-- 父级项目 -->
+  <parent>
+    <groupId>com.agree</groupId>
+    <artifactId>hx</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>hx-down</artifactId>
+  <description>海峡金融平台一键下单模块</description>
+  
+  <!-- 依赖的文件 -->
+  <dependencies>
+	<dependency>
+		<groupId>com.agree</groupId>
+		<artifactId>ap-tl</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</dependency>
+	<dependency>
+		<groupId>com.agree</groupId>
+		<artifactId>ap-rl-corp</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</dependency>
+	<dependency>
+		<groupId>com.agree</groupId>
+		<artifactId>ap-rl-bank</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</dependency>
+</dependencies>
+  
+  
+  
+  
+</project>

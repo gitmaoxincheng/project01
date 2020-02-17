@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>4C40A7B483C2E9BE2A12C36A5DAEFE18</UUID>
+  <Target>tc.platform.base.P_StruUtil.P_byteArray2String</Target>
+  <Desp>字节数组转字符串</Desp>
+  <Group>字符操作库</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>字节数组转字符串</ToolTip>
+  <InArgs>
+    <Total>2</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>bArray</Name>
+      <Type>byte[]</Type>
+      <Desc>字节数组</Desc>
+      <LogLevel>0</LogLevel>
+    </Arg>
+    <Arg>
+      <Name>encoding</Name>
+      <Type>java.lang.String</Type>
+      <Desc>字符编码</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>str</Name>
+      <Type>java.lang.String</Type>
+      <Desc>字符串</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/base/P_StruUtil.java</Path>
+</Component>

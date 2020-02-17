@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>6F9CCE6A868096EAC35B2B389C57B951</UUID>
+  <Target>tc.platform.component.commom.P_ComponentApp.P_setDataValue</Target>
+  <Desp>设置节点值组件</Desp>
+  <Group>通用工具类</Group>
+  <Level>0</Level>
+  <Style>0</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>设置节点值,容器变量为'__REQ__'或者'__RSP__',元素值为[key,value]</ToolTip>
+  <InArgs>
+    <Total>2</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>argContext</Name>
+      <Type>java.lang.String</Type>
+      <Desc>容器变量</Desc>
+    </Arg>
+    <Arg>
+      <Name>varlist</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaList</Type>
+      <Desc>元素值</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>0</Total>
+    <Type>0</Type>
+  </OutArgs>
+  <Logic>
+    <Total>1</Total>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/component/commom/P_ComponentApp.java</Path>
+</Component>

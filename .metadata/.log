@@ -1621,3 +1621,12 @@ java.lang.IllegalStateException: Call stack for thread main
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 09:46:58.216
 !MESSAGE The POM for com.agree:ap-al-atmp:jar:1.0.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 10:00:20.698
+!MESSAGE The POM for com.agree:ap-rl-afa:jar:1.0.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 10:00:26.068
+!MESSAGE The POM for com.agree:ap-rl-afa:jar:1.0.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 10:00:26.688
+!MESSAGE The POM for com.agree:ap-rl-afa:jar:1.0.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details

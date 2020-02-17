@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>E6CEA2C8DBF1903C81250E980963CEAC</UUID>
+  <Target>tc.platform.message.P_Message.P_packAndSendMsg</Target>
+  <Desp>拼包并发送报文</Desp>
+  <Group>平台报文</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>拼包并发送报文</ToolTip>
+  <InArgs>
+    <Total>3</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>msgCtx</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>拼包报文容器</Desc>
+      <LogLevel>3</LogLevel>
+    </Arg>
+    <Arg>
+      <Name>origCtx</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>原请求容器</Desc>
+      <LogLevel>3</LogLevel>
+    </Arg>
+    <Arg>
+      <Name>debug</Name>
+      <Type>boolean</Type>
+      <Desc>是否Debug容器信息</Desc>
+      <LogLevel>3</LogLevel>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>rspObj</Name>
+      <Type>Object</Type>
+      <Desc>拼包结果</Desc>
+      <LogLevel>0</LogLevel>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/message/P_Message.java</Path>
+</Component>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>82DDC85A47EA989B2F77070924870E64</UUID>
+  <Target>tc.platform.base.P_StruUtil.P_strJoint</Target>
+  <Desp>字符串拼接</Desp>
+  <Group>字符操作库</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip></ToolTip>
+  <InArgs>
+    <Total>3</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>srcStr</Name>
+      <Type>java.lang.String</Type>
+      <Desc>源字符串</Desc>
+    </Arg>
+    <Arg>
+      <Name>separator</Name>
+      <Type>java.lang.String</Type>
+      <Desc>分隔符</Desc>
+    </Arg>
+    <Arg>
+      <Name>objStr</Name>
+      <Type>java.lang.String</Type>
+      <Desc>要拼接的字符串</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>rspStr</Name>
+      <Type>java.lang.String</Type>
+      <Desc>拼接后的字符串</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/base/P_StruUtil.java</Path>
+</Component>

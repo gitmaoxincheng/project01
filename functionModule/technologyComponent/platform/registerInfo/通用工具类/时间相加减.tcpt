@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>4ACF7346766B0D3FC792A22F41B06FFF</UUID>
+  <Target>tc.platform.component.commom.P_ComponentApp.P_addTimes</Target>
+  <Desp>时间相加减</Desp>
+  <Group>通用工具类</Group>
+  <Level>0</Level>
+  <Style>0</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>时间相加减</ToolTip>
+  <InArgs>
+    <Total>3</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>sDateTime</Name>
+      <Type>java.lang.String</Type>
+      <Desc>原日期</Desc>
+    </Arg>
+    <Arg>
+      <Name>sTimes</Name>
+      <Type>java.lang.String</Type>
+      <Desc>要相加的时间</Desc>
+    </Arg>
+    <Arg>
+      <Name>type</Name>
+      <Type>java.lang.String</Type>
+      <Desc>相加的类型，可以是S-秒、M-分、H-小时、D-天、W-星期</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>0</Total>
+    <Type>0</Type>
+  </OutArgs>
+  <Logic>
+    <Total>1</Total>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/component/commom/P_ComponentApp.java</Path>
+</Component>

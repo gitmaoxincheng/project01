@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>376A9BC080038DA4C411F71E2E33F30D</UUID>
+  <Target>tc.platform.component.communicate.P_Communicate.P_commString</Target>
+  <Desp>通信组件（字符串）</Desp>
+  <Group>通讯类组件</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>通信组件（字符串）</ToolTip>
+  <InArgs>
+    <Total>4</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>appId</Name>
+      <Type>java.lang.String</Type>
+      <Desc>应用ID标识</Desc>
+    </Arg>
+    <Arg>
+      <Name>commItem</Name>
+      <Type>java.lang.String</Type>
+      <Desc>通信配置</Desc>
+    </Arg>
+    <Arg>
+      <Name>msg</Name>
+      <Type>java.lang.String</Type>
+      <Desc>发送报文</Desc>
+    </Arg>
+    <Arg>
+      <Name>paramMap</Name>
+      <Type>java.util.Map</Type>
+      <Desc>附加参数</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>result</Name>
+      <Type>java.lang.String</Type>
+      <Desc>返回结果</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/component/communicate/P_Communicate.java</Path>
+</Component>

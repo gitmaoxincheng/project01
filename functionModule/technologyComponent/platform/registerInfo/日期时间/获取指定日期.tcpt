@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>1B195A872127998C2ECEAA11200C4499</UUID>
+  <Target>tc.platform.util.date.P_DateAndTimeUtil.P_GetSpecifiedDate</Target>
+  <Desp>获取指定日期</Desp>
+  <Group>日期时间</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip></ToolTip>
+  <InArgs>
+    <Total>2</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>fmt</Name>
+      <Type>java.lang.String</Type>
+      <Desc>日期格式</Desc>
+    </Arg>
+    <Arg>
+      <Name>days</Name>
+      <Type>int</Type>
+      <Desc>天数</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>date</Name>
+      <Type>java.lang.String</Type>
+      <Desc>日期</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/util/date/P_DateAndTimeUtil.java</Path>
+</Component>

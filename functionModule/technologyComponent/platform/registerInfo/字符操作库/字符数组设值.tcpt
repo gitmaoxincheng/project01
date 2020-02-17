@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>C52CA248A5C9F6724DDBEE67B6EDD10E</UUID>
+  <Target>tc.platform.base.P_StruUtil.P_setCharArr</Target>
+  <Desp>字符数组设值</Desp>
+  <Group>字符操作库</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>字符数组设值</ToolTip>
+  <InArgs>
+    <Total>3</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>charArr</Name>
+      <Type>Object</Type>
+      <Desc>字符数组</Desc>
+    </Arg>
+    <Arg>
+      <Name>index</Name>
+      <Type>int</Type>
+      <Desc>字符数组索引</Desc>
+    </Arg>
+    <Arg>
+      <Name>value</Name>
+      <Type>char</Type>
+      <Desc>字符值</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>0</Total>
+    <Type>0</Type>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/base/P_StruUtil.java</Path>
+</Component>

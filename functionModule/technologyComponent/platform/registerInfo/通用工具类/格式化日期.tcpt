@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>D0081181883ADD574D86CE5B7092A69C</UUID>
+  <Target>tc.platform.component.commom.P_ComponentApp.P_fmtDate</Target>
+  <Desp>格式化日期</Desp>
+  <Group>通用工具类</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>格式化日期</ToolTip>
+  <InArgs>
+    <Total>2</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>dateString</Name>
+      <Type>java.lang.String</Type>
+      <Desc>格式化前日期</Desc>
+    </Arg>
+    <Arg>
+      <Name>formatString</Name>
+      <Type>java.lang.String</Type>
+      <Desc>格式化字符串</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>0</Total>
+    <Type>0</Type>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/component/commom/P_ComponentApp.java</Path>
+</Component>

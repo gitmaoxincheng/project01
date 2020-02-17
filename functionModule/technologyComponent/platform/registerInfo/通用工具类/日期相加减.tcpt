@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>F48A024DEDEEA2AFF85B14F3BC1698D5</UUID>
+  <Target>tc.platform.component.commom.P_ComponentApp.P_addDays</Target>
+  <Desp>日期相加减</Desp>
+  <Group>通用工具类</Group>
+  <Level>0</Level>
+  <Style>0</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>日期相加减</ToolTip>
+  <InArgs>
+    <Total>2</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>sDate</Name>
+      <Type>java.lang.String</Type>
+      <Desc>原日期</Desc>
+    </Arg>
+    <Arg>
+      <Name>sDays</Name>
+      <Type>java.lang.String</Type>
+      <Desc>相加天数</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>0</Total>
+    <Type>0</Type>
+  </OutArgs>
+  <Logic>
+    <Total>1</Total>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/component/commom/P_ComponentApp.java</Path>
+</Component>

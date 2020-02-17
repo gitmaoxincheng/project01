@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>08851B08411407CC6DCB2B0AB07CA4C2</UUID>
+  <Target>tc.platform.component.commom.P_ComponentApp.P_addMonths</Target>
+  <Desp>日期加月数得到新日期</Desp>
+  <Group>通用工具类</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>日期加月数得到新日期</ToolTip>
+  <InArgs>
+    <Total>4</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>sourceDate</Name>
+      <Type>java.lang.String</Type>
+      <Desc>原日期</Desc>
+    </Arg>
+    <Arg>
+      <Name>monthNum</Name>
+      <Type>java.lang.String</Type>
+      <Desc>要相加的月数</Desc>
+    </Arg>
+    <Arg>
+      <Name>variableName</Name>
+      <Type>java.lang.String</Type>
+      <Desc>存放新日期的变量名称</Desc>
+    </Arg>
+    <Arg>
+      <Name>ctxFlag</Name>
+      <Type>java.lang.String</Type>
+      <Desc>容器标识</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>0</Total>
+    <Type>0</Type>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/component/commom/P_ComponentApp.java</Path>
+</Component>

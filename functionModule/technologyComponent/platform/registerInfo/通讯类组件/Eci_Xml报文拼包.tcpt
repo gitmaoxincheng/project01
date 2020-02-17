@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>6FD4DF66909514A0632EDA5E5BE7427D</UUID>
+  <Target>tc.platform.component.communicate.P_Xml.P_XmlPack</Target>
+  <Desp>Eci_Xml报文拼包</Desp>
+  <Group>通讯类组件</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>Eci_Xml报文拼包</ToolTip>
+  <InArgs>
+    <Total>3</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>inDict</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>请求容器</Desc>
+    </Arg>
+    <Arg>
+      <Name>encoding</Name>
+      <Type>java.lang.String</Type>
+      <Desc>报文编码</Desc>
+    </Arg>
+    <Arg>
+      <Name>length</Name>
+      <Type>int</Type>
+      <Desc>报文头长度</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>outBytes</Name>
+      <Type>Object</Type>
+      <Desc>返回数组</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/component/communicate/P_Xml.java</Path>
+</Component>

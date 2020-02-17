@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>58A118C5E10E25E7B0B032EF0ACFC006</UUID>
+  <Target>tc.platform.component.communicate.P_Json.P_JsonUnpack</Target>
+  <Desp>JSON拆包</Desp>
+  <Group>通讯类组件</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>解析Json格式的__REQ__['__RCVPCK__']</ToolTip>
+  <InArgs>
+    <Total>3</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>from</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>目标容器</Desc>
+    </Arg>
+    <Arg>
+      <Name>target</Name>
+      <Type>java.lang.String</Type>
+      <Desc>取键</Desc>
+    </Arg>
+    <Arg>
+      <Name>flag</Name>
+      <Type>boolean</Type>
+      <Desc>是否拆报文体</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>to</Name>
+      <Type>java.lang.String</Type>
+      <Desc>存储容器</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/component/communicate/P_Json.java</Path>
+</Component>

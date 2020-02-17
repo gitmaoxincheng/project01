@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>593C472E2887F115ABB147796163032C</UUID>
+  <Target>tc.platform.component.communicate.P_Soap.P_SoapUnpack</Target>
+  <Desp>SOAP拆包</Desp>
+  <Group>通讯类组件</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>SOAP拆包</ToolTip>
+  <InArgs>
+    <Total>4</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>from</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>请求容器</Desc>
+    </Arg>
+    <Arg>
+      <Name>target</Name>
+      <Type>java.lang.String</Type>
+      <Desc>取键</Desc>
+    </Arg>
+    <Arg>
+      <Name>length</Name>
+      <Type>int</Type>
+      <Desc>soap报文长度</Desc>
+    </Arg>
+    <Arg>
+      <Name>flag</Name>
+      <Type>boolean</Type>
+      <Desc>是否拆报文体</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>to</Name>
+      <Type>java.lang.String</Type>
+      <Desc>返回容器</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/component/communicate/P_Soap.java</Path>
+</Component>

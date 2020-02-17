@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>66A246DA41E6F9DCEECE0C63D83F0816</UUID>
+  <Target>tc.platform.message.P_Message.P_MessageUnpack</Target>
+  <Desp>接收报文拆包</Desp>
+  <Group>平台报文</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>接收报文拆包</ToolTip>
+  <InArgs>
+    <Total>2</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>msgCtx</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>拆包结果容器</Desc>
+      <LogLevel>3</LogLevel>
+    </Arg>
+    <Arg>
+      <Name>debug</Name>
+      <Type>boolean</Type>
+      <Desc>是否打印容器信息</Desc>
+      <LogLevel>3</LogLevel>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>0</Total>
+    <Type>0</Type>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/message/P_Message.java</Path>
+</Component>

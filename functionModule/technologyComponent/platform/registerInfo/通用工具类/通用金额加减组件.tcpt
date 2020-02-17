@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>3CBA34303BD61A22EB9C413739E7926D</UUID>
+  <Target>tc.platform.component.commom.P_ComponentApp.P_public_Stock_Data_In_Amount_Out</Target>
+  <Desp>通用金额加减组件</Desp>
+  <Group>通用工具类</Group>
+  <Level>0</Level>
+  <Style>0</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>通用金额加减组件</ToolTip>
+  <InArgs>
+    <Total>3</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>amountList</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaList</Type>
+      <Desc>金额列表</Desc>
+    </Arg>
+    <Arg>
+      <Name>variableName</Name>
+      <Type>java.lang.String</Type>
+      <Desc>结果存放变量名</Desc>
+    </Arg>
+    <Arg>
+      <Name>reFlag</Name>
+      <Type>java.lang.String</Type>
+      <Desc>全局变量类型(REQ或者RSP)</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>0</Total>
+    <Type>0</Type>
+  </OutArgs>
+  <Logic>
+    <Total>1</Total>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/component/commom/P_ComponentApp.java</Path>
+</Component>
