@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>60B1226ED74F8E3657F842CBA3C8482C</UUID>
+  <Target>tc.platform.util.json.P_Json.P_JsonToMap</Target>
+  <Desp>JSON转MAP</Desp>
+  <Group>JSON报文</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>JSON转MAP</ToolTip>
+  <InArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>jsonString</Name>
+      <Type>java.lang.String</Type>
+      <Desc>JSON格式报文</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>jsonMap</Name>
+      <Type>java.util.Map</Type>
+      <Desc>JSON报文MAP</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/util/json/P_Json.java</Path>
+</Component>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>95E214F698753B0082A0B06CB8B3E675</UUID>
+  <Target>tc.platform.error.P_GlobalError.P_PutGlobalError</Target>
+  <Desp>设置全局错误</Desp>
+  <Group>全局错误</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>设置全局错误</ToolTip>
+  <InArgs>
+    <Total>4</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>errorCtx</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>全局错误容器</Desc>
+    </Arg>
+    <Arg>
+      <Name>errorTypeKey</Name>
+      <Type>java.lang.String</Type>
+      <Desc>错误类型关键字</Desc>
+    </Arg>
+    <Arg>
+      <Name>errorCodeKey</Name>
+      <Type>java.lang.String</Type>
+      <Desc>错误代码关键字</Desc>
+    </Arg>
+    <Arg>
+      <Name>errorMsgKey</Name>
+      <Type>java.lang.String</Type>
+      <Desc>错误信息关键字</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>0</Total>
+    <Type>0</Type>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/error/P_GlobalError.java</Path>
+</Component>

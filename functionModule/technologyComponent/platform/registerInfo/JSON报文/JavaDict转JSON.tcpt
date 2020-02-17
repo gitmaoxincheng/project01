@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>6EE9F5ACDFF0AC035E9CB21B3E2DDC7A</UUID>
+  <Target>tc.platform.util.json.P_Json.P_DictToJson</Target>
+  <Desp>JavaDict转JSON</Desp>
+  <Group>JSON报文</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>JavaDict转JSON</ToolTip>
+  <InArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>ctx</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>报文装载容器</Desc>
+      <LogLevel>0</LogLevel>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>jsonString</Name>
+      <Type>java.lang.String</Type>
+      <Desc>JSON格式报文</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/util/json/P_Json.java</Path>
+</Component>

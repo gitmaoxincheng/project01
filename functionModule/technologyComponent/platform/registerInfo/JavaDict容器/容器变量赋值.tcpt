@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>887BD948A0B1D7F9150DFD899742D50D</UUID>
+  <Target>tc.platform.context.P_JavaDictUtils.P_setValue</Target>
+  <Desp>容器变量赋值</Desp>
+  <Group>JavaDict容器</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>容器变量赋值, 例如入参inContext={'key1':value1}, 当入参paramList=[['key1',value1_1],['key2',value2]]时, 则处理后inContext={'key1':value1_1, 'key2':value2}; 当入参inContext={'key1':value1}, paramList=['key2', value2]时, 则处理后inContext={'key1':'value1', 'key2', value2}</ToolTip>
+  <InArgs>
+    <Total>2</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>inContext</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>请求容器</Desc>
+    </Arg>
+    <Arg>
+      <Name>paramList</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaList</Type>
+      <Desc>变量赋值列表，如：[[key1,value1],[key2,value2],[key3,value3]...]</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>0</Total>
+    <Type>0</Type>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/context/P_JavaDictUtils.java</Path>
+</Component>

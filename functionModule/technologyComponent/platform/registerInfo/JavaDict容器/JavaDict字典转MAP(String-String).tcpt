@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>B6236C512FF391ADAB4FFB4AC270C42A</UUID>
+  <Target>tc.platform.context.P_JavaDictUtils.P_DictToMapSS</Target>
+  <Desp>JavaDict字典转MAP(String-String)</Desp>
+  <Group>JavaDict容器</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>JavaDict字典转MAP(String-String)</ToolTip>
+  <InArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>dict</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>JavaDict容器</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>map</Name>
+      <Type>java.util.Map</Type>
+      <Desc>Map字典</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/context/P_JavaDictUtils.java</Path>
+</Component>

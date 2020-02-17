@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>FACD02EC3D7337BDF603CBF3F9B59876</UUID>
+  <Target>tc.platform.context.P_JavaDictUtils.P_Put</Target>
+  <Desp>容器添加值KeyValue</Desp>
+  <Group>JavaDict容器</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>容器添加值KeyValue</ToolTip>
+  <InArgs>
+    <Total>3</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>javaDict</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>JavaDict容器</Desc>
+    </Arg>
+    <Arg>
+      <Name>key</Name>
+      <Type>Object</Type>
+      <Desc>键</Desc>
+    </Arg>
+    <Arg>
+      <Name>value</Name>
+      <Type>Object</Type>
+      <Desc>值</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>0</Total>
+    <Type>0</Type>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/context/P_JavaDictUtils.java</Path>
+</Component>
