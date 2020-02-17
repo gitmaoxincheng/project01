@@ -1,6 +1,7 @@
 /.gradle/
 .idea
-.metadata/.*
+/.metadata/.*
+/.metadata/.log
 .settings
 .class
 .bin
