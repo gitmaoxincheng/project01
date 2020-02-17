@@ -1,18 +1,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<artifactId>ap-al-atmp</artifactId>
-	<name>ap-al-atmp</name>
-	<description>渠道整合项目ATM服务定制模块</description>
-
-
+	<!-- 版本说明 -->
 	<modelVersion>4.0.0</modelVersion>
-
+	<!-- 父级项目 -->
 	<parent>
 		<groupId>com.agree</groupId>
 		<artifactId>ap</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
-	</parent>
+	</parent>	
+	<artifactId>ap-al-atmp</artifactId>
+	<name>ap-al-atmp</name>
+	<description>渠道整合项目ATM服务定制模块</description>
+
+	
 
 	<dependencies>
 		<dependency>

@@ -8,13 +8,12 @@ import cn.com.agree.huanan.ap.al.atmp.atm.po.ATMPBussFlow;
 /**
  * atm特色P业务流水表Dao层
  * @author huangys
- *
  */
 public interface AtmBussFlowDao {
 	/**
 	 * 登记特色p交易业务流水表
 	 * @param atmpMap 
-	 * @return qqqqqq
+	 * @return 
 	 */
 	public int insertBuss(Map<String,Object>atmpMap);
 	

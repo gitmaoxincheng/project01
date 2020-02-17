@@ -22,3 +22,309 @@
 2020-02-14 22:11:38,163 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hx/src/main/resources
 2020-02-14 22:11:38,173 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hx/src/test/java
 2020-02-14 22:11:38,173 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hx/src/test/resources
+2020-02-16 14:59:53,029 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.agree:hx:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\pom.xml.
+2020-02-16 15:01:36,254 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.agree:hx:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\pom.xml.
+2020-02-16 15:01:38,772 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/${spring.boot.version}/spring-boot-starter-jdbc-${spring.boot.version}.pom
+2020-02-16 15:01:38,779 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.boot:spring-boot-starter-jdbc:jar:${spring.boot.version} is missing, no dependency information available
+2020-02-16 15:01:39,043 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.6.14/byte-buddy-1.6.14.pom
+2020-02-16 15:01:41,709 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.6.14/byte-buddy-1.6.14.pom
+2020-02-16 15:01:42,597 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.6.14/byte-buddy-parent-1.6.14.pom
+2020-02-16 15:01:47,989 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.6.14/byte-buddy-parent-1.6.14.pom
+2020-02-16 15:01:53,334 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.6.14/byte-buddy-agent-1.6.14.pom
+2020-02-16 15:01:58,920 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.6.14/byte-buddy-agent-1.6.14.pom
+2020-02-16 15:01:59,398 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/${spring.boot.version}/spring-boot-starter-jdbc-${spring.boot.version}.jar
+2020-02-16 15:01:59,598 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.6.14/byte-buddy-1.6.14.jar
+2020-02-16 15:04:32,479 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.6.14/byte-buddy-1.6.14.jar
+2020-02-16 15:04:32,481 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.6.14/byte-buddy-agent-1.6.14.jar
+2020-02-16 15:06:05,500 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.jar
+2020-02-16 15:06:07,912 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.jar
+2020-02-16 15:06:10,492 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.pom
+2020-02-16 15:06:59,631 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.pom
+2020-02-16 15:08:47,838 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.agree:haixie:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\haixie\pom.xml.
+2020-02-16 15:12:29,142 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/2.2/maven-war-plugin-2.2.jar
+2020-02-16 15:12:31,375 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/2.2/maven-war-plugin-2.2.jar
+2020-02-16 15:12:31,996 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.agree:hx:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\pom.xml.
+2020-02-16 15:12:32,181 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hx/src/main/java
+2020-02-16 15:12:32,181 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hx/src/main/resources
+2020-02-16 15:12:32,182 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hx/src/test/java
+2020-02-16 15:12:32,182 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hx/src/test/resources
+2020-02-16 15:12:32,627 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-16 15:12:32,631 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:12:32,634 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-16 15:12:32,636 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:12:53,806 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-16 15:12:53,810 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:12:53,811 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-16 15:12:53,813 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:12:57,764 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-16 15:12:57,766 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MyGitHub\project01\hx\src\main\resources
+2020-02-16 15:12:57,767 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-16 15:12:57,768 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:13:00,853 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-16 15:13:00,855 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MyGitHub\project01\hx\src\main\resources
+2020-02-16 15:13:00,856 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-16 15:13:00,858 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:13:04,938 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-16 15:13:04,939 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MyGitHub\project01\hx\src\main\resources
+2020-02-16 15:13:04,943 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-16 15:13:04,944 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MyGitHub\project01\hx\src\test\resources
+2020-02-16 15:13:16,442 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-16 15:13:16,444 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MyGitHub\project01\hx\src\main\resources
+2020-02-16 15:13:16,447 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-16 15:13:16,448 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MyGitHub\project01\hx\src\test\resources
+2020-02-16 15:13:46,170 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-16 15:13:46,171 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MyGitHub\project01\hx\src\main\resources
+2020-02-16 15:13:46,172 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-16 15:13:46,173 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MyGitHub\project01\hx\src\test\resources
+2020-02-16 15:14:34,674 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.agree:hx:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\pom.xml.
+2020-02-16 15:14:59,461 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.agree:hx:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\pom.xml.
+2020-02-16 15:15:46,551 [Worker-17] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.agree:fj:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\fj\pom.xml.
+2020-02-16 15:15:46,708 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /fj/src/main/java
+2020-02-16 15:15:46,709 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /fj/src/main/resources
+2020-02-16 15:15:46,710 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /fj/src/test/java
+2020-02-16 15:15:46,710 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /fj/src/test/resources
+2020-02-16 15:15:47,045 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-16 15:15:47,046 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:15:47,049 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-16 15:15:47,050 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:16:22,065 [Worker-17] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.agree:hx:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\pom.xml.
+2020-02-16 15:16:58,341 [Worker-15] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-02-16 15:16:58,352 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.agree:hx:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\pom.xml.
+2020-02-16 15:16:58,448 [Worker-15] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2020-02-16 15:18:47,798 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-16 15:18:47,798 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:18:47,799 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:18:47,802 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-16 15:18:47,802 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:19:05,598 [main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.agree:hx:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\pom.xml.
+2020-02-16 15:22:30,020 [Worker-23] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.agree:hx-down:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\hx-down\pom.xml.
+2020-02-16 15:22:30,163 [Worker-23] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hx-down/src/main/java
+2020-02-16 15:22:30,163 [Worker-23] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hx-down/src/main/resources
+2020-02-16 15:22:30,163 [Worker-23] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hx-down/src/test/java
+2020-02-16 15:22:30,163 [Worker-23] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hx-down/src/test/resources
+2020-02-16 15:22:30,483 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-16 15:22:30,484 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:22:30,488 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-16 15:22:30,490 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:22:31,593 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.agree:hx:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\pom.xml.
+2020-02-16 15:22:31,876 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.agree:hx-down:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\hx-down\pom.xml.
+2020-02-16 15:22:32,161 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-16 15:22:32,164 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:22:32,166 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-16 15:22:32,167 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:24:53,734 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.agree:hx-down:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\hx-down\pom.xml.
+2020-02-16 15:24:53,864 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-16 15:24:53,867 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:24:53,869 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-16 15:24:53,871 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:26:15,902 [Worker-23] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.agree:hx-down:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\hx-down\pom.xml.
+2020-02-16 15:26:16,071 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-16 15:26:16,073 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:26:16,075 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-16 15:26:16,077 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:30:36,220 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.agree:ap:1.0.0-SNAPSHOT @ D:\MyGitHub\project01\appub\pom.xml.
+2020-02-16 15:30:37,094 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.agree:ap-ml:1.0.0-SNAPSHOT @ D:\MyGitHub\project01\ap\ap-ml\pom.xml.
+2020-02-16 15:30:39,395 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-16 15:30:39,399 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:30:39,399 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:30:39,402 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-16 15:30:39,402 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:31:13,439 [Worker-29] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.agree:hx-down:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\hx-down\pom.xml.
+2020-02-16 15:31:13,817 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-16 15:31:13,820 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:31:13,822 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-16 15:31:13,823 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:32:37,736 [Worker-30] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.agree:hx-down:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\hx-down\pom.xml.
+2020-02-16 15:32:38,072 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-16 15:32:38,075 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:32:38,078 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-16 15:32:38,079 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:32:57,348 [Worker-30] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.agree:hx-down:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\hx-down\pom.xml.
+2020-02-16 15:32:57,732 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-16 15:32:57,736 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:32:57,737 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-16 15:32:57,739 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:35:26,572 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to build parent project for com.agree:hx-down:jar:0.0.1-SNAPSHOT
+2020-02-16 15:35:26,597 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.agree:hx:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\pom.xml.
+2020-02-16 15:35:26,633 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.boot:spring-boot-starter-jdbc:jar:${spring.boot.version} is missing, no dependency information available
+2020-02-16 15:35:26,717 [Worker-15] ERROR o.e.m.c.internal.embedder.MavenImpl - Could not read parent project
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[ERROR] 'dependencies.dependency.version' for org.springframework.boot:spring-boot-starter:jar is missing. @ line 15, column 15
+[ERROR] 'dependencies.dependency.version' for org.springframework.boot:spring-boot-starter-test:jar is missing. @ line 43, column 15
+[ERROR] 'dependencies.dependency.version' for org.springframework.boot:spring-boot-starter-cache:jar is missing. @ line 92, column 15
+
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:195) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:119) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolveParentProject(MavenImpl.java:683) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$4.call(MavenImpl.java:709) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$4.call(MavenImpl.java:1) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolveParentProject(MavenImpl.java:707) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.lifecyclemapping.LifecycleMappingFactory.getPomMappingMetadataSources(LifecycleMappingFactory.java:877) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.lifecyclemapping.LifecycleMappingFactory.getProjectMetadataSourcesMap(LifecycleMappingFactory.java:279) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.lifecyclemapping.LifecycleMappingFactory.getProjectMetadataSources(LifecycleMappingFactory.java:256) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.lifecyclemapping.LifecycleMappingFactory.calculateEffectiveLifecycleMappingMetadata(LifecycleMappingFactory.java:240) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.lifecyclemapping.LifecycleMappingFactory.calculateLifecycleMapping(LifecycleMappingFactory.java:181) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.setupLifecycleMapping(ProjectRegistryManager.java:594) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:513) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$3.call(ProjectRegistryManager.java:492) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$3.call(ProjectRegistryManager.java:1) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:496) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:351) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:298) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:154) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod$1.call(MavenBuilder.java:89) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:86) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:200) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735) [org.eclipse.core.resources_3.12.0.v20170417-1558.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.9.0.v20170207-1454.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206) [org.eclipse.core.resources_3.12.0.v20170417-1558.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246) [org.eclipse.core.resources_3.12.0.v20170417-1558.jar:na]
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301) [org.eclipse.core.resources_3.12.0.v20170417-1558.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.9.0.v20170207-1454.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304) [org.eclipse.core.resources_3.12.0.v20170417-1558.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360) [org.eclipse.core.resources_3.12.0.v20170417-1558.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383) [org.eclipse.core.resources_3.12.0.v20170417-1558.jar:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:142) [org.eclipse.core.resources_3.12.0.v20170417-1558.jar:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:232) [org.eclipse.core.resources_3.12.0.v20170417-1558.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.3.v20180115-1757.jar:na]
+Caused by: org.apache.maven.model.building.ModelBuildingException: 3 problems were encountered while building the effective model for com.agree:hx:0.0.1-SNAPSHOT
+[ERROR] 'dependencies.dependency.version' for org.springframework.boot:spring-boot-starter:jar is missing. @ line 15, column 15
+[ERROR] 'dependencies.dependency.version' for org.springframework.boot:spring-boot-starter-test:jar is missing. @ line 43, column 15
+[ERROR] 'dependencies.dependency.version' for org.springframework.boot:spring-boot-starter-cache:jar is missing. @ line 92, column 15
+
+	at org.apache.maven.model.building.DefaultModelProblemCollector.newModelBuildingException(DefaultModelProblemCollector.java:197) ~[maven-model-builder-3.3.9.jar:3.3.9]
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:479) ~[maven-model-builder-3.3.9.jar:3.3.9]
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:421) ~[maven-model-builder-3.3.9.jar:3.3.9]
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:411) ~[maven-model-builder-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:161) ~[maven-core-3.3.9.jar:3.3.9]
+	... 40 common frames omitted
+2020-02-16 15:35:27,034 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.agree:hx-down:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\hx-down\pom.xml.
+2020-02-16 15:35:27,637 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.boot:spring-boot-starter-jdbc:jar:${spring.boot.version} is missing, no dependency information available
+2020-02-16 15:35:27,682 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to build parent project for com.agree:hx-down:jar:0.0.1-SNAPSHOT
+2020-02-16 15:36:16,529 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to build parent project for com.agree:hx-down:jar:0.0.1-SNAPSHOT
+2020-02-16 15:36:16,543 [Worker-30] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.agree:hx:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\pom.xml.
+2020-02-16 15:36:31,052 [Worker-28] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.agree:hx:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\pom.xml.
+2020-02-16 15:36:31,374 [Worker-28] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.agree:hx-down:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\hx-down\pom.xml.
+2020-02-16 15:36:32,156 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-16 15:36:32,160 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:36:32,162 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-16 15:36:32,163 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:36:45,748 [Worker-32] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.agree:hx:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\pom.xml.
+2020-02-16 15:36:46,010 [Worker-32] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.agree:hx-down:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\hx-down\pom.xml.
+2020-02-16 15:36:46,767 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-16 15:36:46,770 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:36:46,772 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-16 15:36:46,774 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:36:59,071 [Worker-32] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-02-16 15:36:59,107 [Worker-32] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.agree:hx:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\pom.xml.
+2020-02-16 15:36:59,377 [Worker-32] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.agree:hx-down:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\hx-down\pom.xml.
+2020-02-16 15:36:59,743 [Worker-32] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hx-down/src/main/java
+2020-02-16 15:36:59,743 [Worker-32] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hx-down/src/main/resources
+2020-02-16 15:36:59,744 [Worker-32] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hx-down/src/test/java
+2020-02-16 15:36:59,744 [Worker-32] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hx-down/src/test/resources
+2020-02-16 15:36:59,909 [Worker-32] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2020-02-16 15:37:00,353 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-16 15:37:00,356 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:37:00,358 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-16 15:37:00,360 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:38:08,017 [Worker-32] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.agree:hx:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\pom.xml.
+2020-02-16 15:38:08,169 [Worker-32] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.agree:hx-down:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\hx-down\pom.xml.
+2020-02-16 15:38:08,961 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-16 15:38:08,965 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:38:08,966 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-16 15:38:08,968 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:38:43,145 [Worker-28] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.agree:hx:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\pom.xml.
+2020-02-16 15:38:43,196 [Worker-28] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.agree:hx-down:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\hx-down\pom.xml.
+2020-02-16 15:38:43,842 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-16 15:38:43,846 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:38:43,848 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-16 15:38:43,850 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:39:30,376 [Worker-36] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.agree:hx:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\pom.xml.
+2020-02-16 15:39:30,428 [Worker-36] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.agree:hx-down:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\hx-down\pom.xml.
+2020-02-16 15:39:31,186 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-16 15:39:31,188 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:39:31,190 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-16 15:39:31,190 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:40:06,498 [Worker-36] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.agree:hx:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\pom.xml.
+2020-02-16 15:40:06,585 [Worker-36] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.agree:hx-down:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\hx-down\pom.xml.
+2020-02-16 15:40:07,402 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-16 15:40:07,403 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:40:07,406 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-16 15:40:07,406 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:40:37,918 [Worker-32] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.agree:hx:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\pom.xml.
+2020-02-16 15:40:38,088 [Worker-32] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.agree:hx-down:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\hx-down\pom.xml.
+2020-02-16 15:40:38,889 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-16 15:40:38,891 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:40:38,893 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-16 15:40:38,893 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:40:58,670 [Worker-32] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-02-16 15:40:59,675 [Worker-32] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.agree:hx:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\pom.xml.
+2020-02-16 15:41:00,078 [Worker-32] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.agree:hx-down:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\hx-down\pom.xml.
+2020-02-16 15:41:00,219 [Worker-32] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.agree:ap:1.0.0-SNAPSHOT @ D:\MyGitHub\project01\appub\pom.xml.
+2020-02-16 15:41:00,545 [Worker-32] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.agree:ap-ml:1.0.0-SNAPSHOT @ D:\MyGitHub\project01\ap\ap-ml\pom.xml.
+2020-02-16 15:41:00,561 [Worker-32] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.agree:ap:1.0.0-SNAPSHOT @ D:\MyGitHub\project01\ap\pom.xml.
+2020-02-16 15:41:00,985 [Worker-32] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hx-down/src/main/java
+2020-02-16 15:41:00,986 [Worker-32] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hx-down/src/main/resources
+2020-02-16 15:41:01,004 [Worker-32] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hx-down/src/test/java
+2020-02-16 15:41:01,004 [Worker-32] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hx-down/src/test/resources
+2020-02-16 15:41:01,204 [Worker-32] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2020-02-16 15:41:02,172 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-16 15:41:02,175 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:41:02,176 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:41:02,179 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-16 15:41:02,179 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:41:02,782 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-16 15:41:02,783 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:41:02,785 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-16 15:41:02,785 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:41:29,649 [Worker-32] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.agree:hx:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\pom.xml.
+2020-02-16 15:41:29,917 [Worker-32] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.agree:hx-down:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\hx-down\pom.xml.
+2020-02-16 15:41:30,690 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-16 15:41:30,691 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:41:30,693 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-16 15:41:30,693 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:51:36,349 [Worker-37] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.agree:hx:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\pom.xml.
+2020-02-16 15:51:36,604 [Worker-37] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.agree:hx-down:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\hx\hx-down\pom.xml.
+2020-02-16 15:51:37,523 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-16 15:51:37,524 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-16 15:51:37,526 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-16 15:51:37,527 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-17 09:43:00,172 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: functionModule:functionModule1:0.0.1-SNAPSHOT @ D:\MyGitHub\project01\functionModule1\pom.xml.
+2020-02-17 09:43:00,382 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /functionModule1/src/main/java
+2020-02-17 09:43:00,382 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /functionModule1/src/main/resources
+2020-02-17 09:43:00,382 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /functionModule1/src/test/java
+2020-02-17 09:43:00,382 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /functionModule1/src/test/resources
+2020-02-17 09:43:02,153 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-17 09:43:02,173 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-17 09:43:02,173 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-17 09:43:02,173 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-17 09:46:54,836 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: functionModule:functionModule:1.0.0-SNAPSHOT @ D:\MyGitHub\project01\functionModule\pom.xml.
+2020-02-17 09:46:54,906 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.agree:ap-rl-afa:jar:1.0.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2020-02-17 09:46:55,196 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.agree:ap-al-csiopr:jar:1.0.0-SNAPSHOT is missing, no dependency information available
+2020-02-17 09:46:55,196 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.agree:ap-al-csitrd:jar:1.0.0-SNAPSHOT is missing, no dependency information available
+2020-02-17 09:46:55,196 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.agree:ap-al-csiusr:jar:1.0.0-SNAPSHOT is missing, no dependency information available
+2020-02-17 09:46:55,196 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.agree:ap-al-csicop:jar:1.0.0-SNAPSHOT is missing, no dependency information available
+2020-02-17 09:46:55,196 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.agree:ap-al-atmp:jar:1.0.0-SNAPSHOT is missing, no dependency information available
+2020-02-17 09:46:56,036 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-17 09:46:56,036 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MyGitHub\project01\functionModule\src\main\resources
+2020-02-17 09:46:56,036 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MyGitHub\project01\functionModule\src\main\resources
+2020-02-17 09:46:56,036 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-17 09:46:56,036 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MyGitHub\project01\functionModule\src\test\resources
+2020-02-17 09:46:58,146 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.agree:ap-rl-afa:jar:1.0.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2020-02-17 09:46:58,216 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.agree:ap-al-csiopr:jar:1.0.0-SNAPSHOT is missing, no dependency information available
+2020-02-17 09:46:58,216 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.agree:ap-al-csitrd:jar:1.0.0-SNAPSHOT is missing, no dependency information available
+2020-02-17 09:46:58,216 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.agree:ap-al-csiusr:jar:1.0.0-SNAPSHOT is missing, no dependency information available
+2020-02-17 09:46:58,216 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.agree:ap-al-csicop:jar:1.0.0-SNAPSHOT is missing, no dependency information available
+2020-02-17 09:46:58,216 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.agree:ap-al-atmp:jar:1.0.0-SNAPSHOT is missing, no dependency information available
+2020-02-17 09:46:58,236 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-17 09:46:58,236 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MyGitHub\project01\functionModule\src\main\resources
+2020-02-17 09:46:58,236 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MyGitHub\project01\functionModule\src\main\resources
+2020-02-17 09:46:58,236 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-17 09:46:58,256 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MyGitHub\project01\functionModule\src\test\resources
