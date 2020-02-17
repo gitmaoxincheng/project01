@@ -1,0 +1,13 @@
+cn\com\agree\hunan\hx\down\advinfo\po\DevAdv$csis_channel_devadv.class
+cn\com\agree\hunan\hx\down\advinfo\dao\AdvInfoDaoImp.class
+cn\com\agree\hunan\hx\down\advmod\po\AdvMod$csis_channel_advmod.class
+cn\com\agree\hunan\hx\down\advinfo\service\AdvInfoService.class
+cn\com\agree\hunan\hx\down\advinfo\po\DevAdv.class
+cn\com\agree\hunan\hx\down\advinfo\dao\AdvInfoDao.class
+cn\com\agree\hunan\hx\down\advmod\dao\AdvModDaoImpl.class
+cn\com\agree\hunan\hx\down\advmod\dao\AdvModDao.class
+cn\com\agree\hunan\hx\down\advinfo\po\AdvInfo.class
+cn\com\agree\hunan\hx\down\advmod\po\AdvMod.class
+cn\com\agree\hunan\hx\down\advmod\service\AdvModService.class
+cn\com\agree\hunan\hx\down\advinfo\exception\AdvInfoDataException.class
+cn\com\agree\hunan\hx\down\advinfo\po\AdvInfo$csis_channel_advinfo.class

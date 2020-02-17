@@ -19,24 +19,15 @@
 	<classpathentry kind="src" path="technologyComponent/projects/CSISBUSI/USRCNTER/componentSourceCode"/>
 	<classpathentry kind="src" path="technologyComponent/platform/componentSourceCode"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/ap-rl-afa"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/ap-al-csiusr"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/ap-al-csiopr"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/ap-al-csitrd"/>
 	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/axiom-api-1.2.14.jar"/>
 	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/axiom-impl-1.2.14.jar"/>
 	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/cn.com.agree.esb.sdk.soap_v1.1.jar"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/ap-al-atmp"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/ap-al-csicop"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/APLIB"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/ap-rl-aptl"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/ap-rl-corp"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/ap-tl"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/ap-al-csiio"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/ap-rl-bank"/>
 	<classpathentry kind="lib" path="technologyComponent/bank/dependencies/ab.trademessagesender.jar"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/CSISBASE"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/CSISBUSI"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/CSISP"/>
 	<classpathentry kind="src" path="technologyComponent/projects/CSISP/MMPP/componentSourceCode"/>
 	<classpathentry kind="src" path="technologyComponent/projects/CSISP/STMP/componentSourceCode"/>
 	<classpathentry kind="src" output="target/classes" path="src/main/java">
@@ -52,6 +43,10 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/afa library"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="output" path="technologyComponent/output/.bin"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
 </classpath>

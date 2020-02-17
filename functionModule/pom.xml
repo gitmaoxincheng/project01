@@ -25,6 +25,7 @@
 			<artifactId>ap-tl</artifactId>
 			<version>1.0.0-SNAPSHOT</version>
 		</dependency>
+		
 		<dependency>
 			<groupId>com.agree</groupId>
 			<artifactId>ap-rl-bank</artifactId>
