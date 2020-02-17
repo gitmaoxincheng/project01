@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>903177CECDC3C4DA66E97DD726354C46</UUID>
+  <Target>tc.bank.trade.B_ExptComp.B_findTreatmentTimeout</Target>
+  <Desp>获取超时处理方法</Desp>
+  <Group>渠道交易组件</Group>
+  <Level>1</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip></ToolTip>
+  <InArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>params</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>传入参数</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>resultMap</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>返回结果</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>4</Total>
+    <RET0>失败</RET0>
+    <RET1>不需要处理</RET1>
+    <RET2>超时处理</RET2>
+    <RET3>渠道处理</RET3>
+  </Logic>
+  <Path>/functionModule/technologyComponent/bank/componentSourceCode/tc/bank/trade/B_ExptComp.java</Path>
+</Component>

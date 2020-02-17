@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>C02390A92AC6B2F07570303D8C9356BD</UUID>
+  <Target>tc.bank.base.service.B_SvcAuth.B_B_certifyChlAuth</Target>
+  <Desp>渠道服务权限校验</Desp>
+  <Group>渠道服务</Group>
+  <Level>1</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip></ToolTip>
+  <InArgs>
+    <Total>2</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>req</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>入参字典</Desc>
+      <DefaultParam>__REQ__</DefaultParam>
+    </Arg>
+    <Arg>
+      <Name>opt</Name>
+      <Type>java.lang.String</Type>
+      <Desc>操作</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>svcInfo</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>服务信息</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/bank/componentSourceCode/tc/bank/base/service/B_SvcAuth.java</Path>
+</Component>

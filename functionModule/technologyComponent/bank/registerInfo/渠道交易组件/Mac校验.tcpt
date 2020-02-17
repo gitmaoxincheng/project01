@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>900A116D12A8A17E12AFCC3A111BD7AA</UUID>
+  <Target>tc.bank.trade.B_TradeComp.B_macCheck</Target>
+  <Desp>Mac校验</Desp>
+  <Group>渠道交易组件</Group>
+  <Level>1</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>mac校验</ToolTip>
+  <InArgs>
+    <Total>2</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>request</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>请求报文</Desc>
+    </Arg>
+    <Arg>
+      <Name>authInfo</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>权限信息</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>0</Total>
+    <Type>0</Type>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/bank/componentSourceCode/tc/bank/trade/B_TradeComp.java</Path>
+</Component>

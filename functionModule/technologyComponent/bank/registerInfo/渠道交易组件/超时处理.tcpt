@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>A46A0FC2D7AFD02994FB447913B28CAE</UUID>
+  <Target>tc.bank.trade.B_ExptComp.B_dealTimeOutFlow</Target>
+  <Desp>超时处理</Desp>
+  <Group>渠道交易组件</Group>
+  <Level>1</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip></ToolTip>
+  <InArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>req</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>请求容器</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>3</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>resultMap</Name>
+      <Type>Object</Type>
+      <Desc>返回结果</Desc>
+    </Arg>
+    <Arg>
+      <Name>cfginfo</Name>
+      <Type>Object</Type>
+      <Desc>超时配置信息</Desc>
+    </Arg>
+    <Arg>
+      <Name>rqd</Name>
+      <Type>Object</Type>
+      <Desc>请求信息</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>3</Total>
+    <RET0>失败</RET0>
+    <RET1>本地状态返回</RET1>
+    <RET2>状态级联查询</RET2>
+  </Logic>
+  <Path>/functionModule/technologyComponent/bank/componentSourceCode/tc/bank/trade/B_ExptComp.java</Path>
+</Component>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>9460CA8B02B00ADECCE041A5A313ED67</UUID>
+  <Target>tc.bank.trade.B_ExptComp.B_dealBackSysFlow</Target>
+  <Desp>处理级联流水</Desp>
+  <Group>渠道交易组件</Group>
+  <Level>1</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>处理级联流水</ToolTip>
+  <InArgs>
+    <Total>3</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>req</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>请求容器</Desc>
+    </Arg>
+    <Arg>
+      <Name>cfgInfo</Name>
+      <Type>Object</Type>
+      <Desc>超时配置信息</Desc>
+    </Arg>
+    <Arg>
+      <Name>backFlow</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>级联交易流水信息</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>resultMap</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>返回结果</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/bank/componentSourceCode/tc/bank/trade/B_ExptComp.java</Path>
+</Component>
