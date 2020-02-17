@@ -1,0 +1,449 @@
+package tc.platform.constant.exception;
+
+/**
+ * 信息编码编制：“系统编码（4位）＋“信息类型（1位）”＋序号（5位）”
+ * 
+ * 业务类信息	---------------------------------------------		
+       错误信息		E			入参检查、流程错息等
+       提示信息		M				动态授权
+       技术类信息 ---------------------------------------------
+       数据内容相关	C	   		文本格式化，字符转数据等
+       读写相关		I				操作文件
+       数据库相关	D			查询，插入、更新等
+       网络通讯		N			超时，连接失败等
+       安全服务		S			验密，验签等
+       纯技术性错误	T			异常时的错误码
+ * 																	
+ * 格式:XXXXX00001
+ * 公共错误码
+ * 各模块可以写自己的枚举实现BaseErrorCode模块
+ * 以10000为跨度,00001-09999保留,预留为全行统一错误码,90001-99999保留,预留为全行统一错误码
+ * 10001-19999为参数检查专用,
+ * 20001-59999为流程提示,
+ //TODO 暂定 
+ * 61001-61999为渠道交易相交错误码,
+ * 62001-62999为柜员管理交易相交错误码,
+ * 
+ * 
+ * 70001-79999公共交易固定错误码
+ * 
+ */
+public enum CommonErrorCodeEnum implements BaseErrorCode{
+	
+	//AAAAAAAAAA是成功
+	SUCCESS("AAAAAAAAAA","交易成功"),
+	
+	//00001-09999保留,预留为全行统一错误码
+	
+	//10001-19999为参数检查专用
+
+	//-----------------------code----------------------
+	PARAMETER_ISEMPTY("XXXXE10000"),			  				// 入参参数为空
+	PAPAMETER_INTERNSL_NOT_JAVALIST("XXXE10001"),				// 入参参数内参格式不是JAVALIST
+	PAPAMETER_INTERNSL_NOT_JAVADICT("XXXE10002"),				// 入参参数内参格式不是JAVADICT	
+	CONTAINER_NO_VALUE("XXXE10003"),							// 容器中不存在值(***)
+	PAPAMETER_INTERNSL_LENGTH_ERROR("XXXE10004"),				// 入参参数内参长度不对
+	PARAMETER_ILLEGAL("XXXE10005"),								// 入参格式不对
+	INPARAMS_TOOLONG ("XXXE10006"),								// 入参超长
+	PAPAMETER_LENGTH_ERROR("XXXE10007"),						// 入参长度不对
+	PARAMETER_CONTENT_ERROR("XXXE10008"),						// 参数内容不正确
+	//-----------------------code----------------------
+		
+	
+	//----------------------codeAndMessage--------------------------
+	SQL_ISEMPTY("XXXXE10101","入参sql语句为空"),
+	TABLENAME_ISEMPTY("XXXXE10102","入参表名为空"),
+	PAGEFLAG_ISEMPTY("XXXXE10103","入参翻页标识为空"),
+	FIELDS_ISEMPTY("XXXXE10104","入参待查询字段为空"),
+	CONDITIONS_ISEMPTY("XXXXE10105","入参待where查询条件字段为空"),
+	ORDERBY_ISEMPTY("XXXXE10106","入参排序字段为空"),
+	PAGE_CONDITIONS_ISEMPTY("XXXXE10107","入参翻页条件字段为空"),
+	BIINDPARAMS_ISEMPTY("XXXXE10108","入参sql绑定变量字段为空"),
+	RETURNFIELDS_ISEMPTY("XXXXE10109","入参返回字段为空"),
+	CONDITIONS_INTERNSL_NOT_JAVALIST("XXXXE10110","入参where查询条件字段的内参类型不是JavaList"),
+	ORDERBY_INTERNSL_NOT_JAVALIST("XXXXE10111","入参排序字段的内参类型不是JavaList"),
+	PAGE_CONDITIONS_INTERNSL_NOT_JAVALIST("XXXXE10112","入参翻页条件字段的内参类型不是JavaList"),
+	BINDPARAMS_INTERNSL_NOT_JAVALIST("XXXXE10113","入参sql绑定变量字段的内参类型不是JavaList"),
+	PROCNAME_ISEMPTY("XXXXE10114","入参存储过程名字字段为空"),
+	PAGE_NUM_ISEMPTY("XXXXE10115","入参翻页标识与查询记录数字段为空"),
+	JOIN_QUERY_ISEMPTY("XXXXE10116","入参联表查询条件字段为空"),
+	DELETE_FIELDS_ISEMPTY("XXXXE10117","入参删除条件字段为空"),
+	NAMEANDPAGE_ISEMPTY("XXXXE10118","分页集合字段为空"),
+	PAGE_CONDITIONS_NOT_KEYVALUE("XXXXE10119","翻页条件不是键值对"),
+	PAGEFlag_NOTIN_RANGE("XXXXE10119","翻页标志p值不在范围(首页,上一页,下一页,尾页)中"),
+	DATABASE_ERROR("XXXXE10120","操作数据库时发生错误"),
+	DATABASE_PARAMETER_ISEMPTY("XXXXE10121","传入参数为空"),
+	
+	//__REQ__,__RSP__参数检查
+	REQ_NO_FIELDS("XXXXE10200","容器REQ中不存在插入字段值fields"),
+	
+		
+	//20001-59999为流程提示,自定义错误信息
+	
+	//-----------------------code----------------------
+	
+	FUNCATION_RUN_FAIL("0310E20001"),					//功能组件执行失败
+	NUMBER_FORMAT_EXCEPTION("0310E20002"),				//数字装换异常
+	
+	//-----------------------code----------------------
+	//错误信息		E			入参检查、流程错息等
+	ERROR("0310E20001","一般提示信息"),
+	GET_SYSTEM_DATE_EXCEPTION("0310E20002","获取系统日期失败"),
+	GET_SYSTEM_TIME_EXCEPTION("0310E20003","获取系统时间失败"),
+	ADD_DATE_EXCEPTION("0310E20004","日期相加减失败"),
+	ADD_TIME_EXCEPTION("0310E20005","时间相加减失败"),
+	ADD_MONTH_EXCEPTION("0310E20006","时间相加减失败"),
+	FMT_DATE_EXCEPTION("0310E20007","格式化日期失败"),
+	FMT_TIME_EXCEPTION("0310E20008","格式化时间失败"),
+	AMOUNT_HANDLE_EXCEPTION("0310E20009","通用金额处理失败"),
+	GET_SERIALNO_EXCEPTION("0310E20010","获取流水号异常"),
+
+	NO_DEFINITION_KEYWORLD("0310E20100","没有定义的关键字'>=','>','<=','<'"),
+	
+	DICT_SET_VALUE_ERROR("0310E20011", "容器赋值失败"),
+	
+
+	BRNO_NO_UPBRANCHNO("0310E20015", "网点无上级支行"),
+	MBRNO_NO_UPBRANCHNO("0310E20016", "支行无上级分行"),
+	
+	GENERATE_ENTDUTY_BRNO_LENGTH_ERROR("0310E20017", "操作柜员所在机构号长度不合法"),
+	GENERATE_ENTDUTYNO_LENGTH_ERROR("0310E20018", "最大实体岗编号长度不正确,请联系技术人员"),
+	GENERATE_ENTDUTYNAME_LENGTH_ERROR("0310E20019", "最大实体岗名称长度不正确,请联系技术人员"),
+	
+	CHKVAL_IS_EMPTY_ERROR("0310E20019", "必传参数校验失败"),
+	PARAMS_CHK_ERROR("0310E20020", "请求参数校验失败"),
+	CHECK_RESULT_ERROR("0310E20021", "查询结果为空或异常"),
+	JUDGE_RESULT_ERROR("0310E20022", "判定结果为否或异常"),
+	
+	PLUS_SIGN_ERROR("0310S40001","加签出错"),
+	CHECK_SIGN_ERROR("0310S40002","验签出错"),
+	PUBLICKEY_ENCTYPT_ERROR("0310S40003","公钥加密出错"),
+	PRIVATEKEY_ENCTYPT_ERROR("0310S40004","私钥加密出错"),
+	PUBLICKEY_DECRYPT_ERROR("0310S40005","公钥解密出错"),
+	PRIVATEKEY_DECRYPT_ERROR("0310S40006","私钥解密出错"),
+	JKS_NO_EXIST("0310S40007","JKS库不存在"),
+	LOAD_JKS_ERROR("0310S40008","加载JKS出错"),
+	JKS_PASSWORD_ERROR("0310S40009","JKS库密码不正确"),
+	PRIVATEKEY_PASSWORD_ERROR("0310S40010","私钥密码不正确"),
+	PRIVATEKEY_NO_EXIST("0310S40011","私钥不存在"),
+	PUBLICKEY_NO_EXIST("0310S40012","公钥不存在"),
+	TRUST_CERTFICATE_NO_EXIST("0310S40013","信任证书不存在"),
+	LOAD_PRIVATEKEY_EXCEPTION("0310S40014","加载私钥异常"),
+	LOAD_PUBLICKEY_EXCEPTION("0310S40015","加载公钥异常"),
+	
+	GBK_TO_UTF8_ERROR("0310C50001","GBK转UTF-8编码出错"),
+	UTF8_TO_GBK_ERROR("0310C50002","UTF-8转GBK编码出错"),
+	TO_BASE64_ERROR("0310C50003","BASE64出错"),
+	REVERSE_BASE64_ERROR("0310C50004","反BASE64出错"),
+	TO_MD5_ERROR("0310C50005","MD5出错"),
+	DES_ENCRYPT_ERROR("0310C50006","DES加密出错"),
+	DES_DECRYPT_ERROR("0310C50007","DES解密出错"),
+	DES3_ENCRYPT_ERROR("0310C50008","3DES加密出错"),
+	DES3_DECRYPT_ERROR("0310C50009","3DES解密出错"),
+	
+	DOUBLE_TO_SINGLE_ERROR("0310C50010", "全角字符串转半角字符串出错"),
+	SINGLE_TO_DOUBLE_ERROR("0310C50011", "半角字符串转全角字符串出错"),
+	
+	STRING_TO_JSONOBJECT_ERROR("0310C50012", "JSONString转JSONObject出错"),
+	JSONOBJECT_TO_DICT_ERROR("0310C50013", "JSONObject转JavaDict出错"),
+	SOAPBYTE_TO_MAP_ERROR("0310C50014", "soap转Map<String, Object>出错"),
+	SOAPMAP_TO_DICT_ERROR("0310C50015", "soap转JavaDict出错"),
+	
+	COM_PART_ERROR("0310C50016", "部分处理失败"),
+	COM_ALL_ERROR("0310C50017", "全部处理失败"),
+	COM_SIGN_FLAG_ERROR("0310C50018", "签约顺序异常"),
+	
+	TRANSCODE_ERROR("0310C59999","转编码出错"),
+	
+	
+	// 60001-69999为各交易错误码,用于特殊的约定返回
+	// 读写相关		I				操作文件
+	// 文件
+	FILE_NO_EXIST("0310I60001","文件不存在"),
+	FILE_READ_ERROR("0310I60002","读文件出错"),
+	FILE_WRITE_ERROR("0310I60003","写文件出错"),
+	CONFIG_NO_EXIST("0310I60004","配置文件不存在"),
+	CONFIG_READ_ERROR("0310I60005","读配置文件出错"),
+	CONFIG_WRITE_ERROR("0310I60006","写配置文件出错"),
+	FILE_READ_EXCEPTION("0310I69998","读文件异常"),
+	FILE_WRITE_EXCEPTION("0310I69999","写文件异常"),
+	
+	// 通讯
+	GET_MEMORY_PARAM_FAIL("0310I60100","内存参数获取失败"),
+	COMM_CONF_INIT_FAIL("0310I60101","通讯配置初始化失败"),
+	COMM_EXCHANGE_ERROR("0310I60102","通讯服务处理异常"),
+	COMM_COMMTYPE_ERROR("0310I60103","通讯方式类型非法"),
+	COMM_RESPONSE_COMMPRO_ERR("0310I60104","响应报文类型非法"),
+	COMM_TX_MAPPING_ERROR("0310I60105", "网关交易映射失败"),
+	COMM_TX__NO_MAPPING("0310I60106", "没有相关的交易映射记录"),
+	
+	GEN_SERIALNO_ERROR("0310I60107", "生成流水号失败"),
+	REG_SERIALNO_ERROR("0310I60108", "登记交易流水失败"),
+	UPDATE_SERIALNO_ERROR("0310I60109", "更新交易流水失败"),
+	ACCESS_AUT_ERROR("0310I60110", "渠道接入权限认证错误"),
+	ACCESS_AUT_FAILURE("0310I60111", "渠道接入权限认证失败"),
+	GEN_GLOBAL_SERIALNO_ERROR("0310I60112", "生成全局流水号失败"),
+	
+	
+	// 拆拼包类
+	UNPACK_SOAP_ERR("0310I60201","soap报文拆包异常"),
+	UNPACK_JSON_ERR("0310I60202","json报文拆包异常"),
+	UNPACK_XML_ERR("0310I60203","xml报文拆包异常"),
+	PACKET_SOAP_ERR("0310I60204","soap报文拼包异常"),
+	PACKET_JSON_ERR("0310I60205","json报文拼包异常"),
+	PACKET_XML_ERR("0310I60206","xml报文拼包异常"),
+	PACKET_JSON_OS_CLOSE_ERROR("0310I60207", "json响应报文输出流关闭失败"),
+	MESSAGE_FIELD_EMPTY("0310I60208", "请求报文字段缺失"),
+		
+	// 编码类
+	CODING_ERR("0310I60301","编码异常"),
+	DECODING_ERR("0310I60302","解码异常"),
+	
+	//风控
+	RISK_CONTROL_ERR("0310I60311","风控探头映射处理异常"),
+	
+	
+	
+	//61001-61999为渠道交易相交错误码
+	CHANNEL_EXIST("0310E01001", "渠道信息已存在"),
+	CHANNEL_OPER_EXIST("0310E01002", "渠道信息审批记录已存在"),
+	CHANNEL_NOT_EXIST("0310E01003", "渠道信息不存在"),
+	CHANNEL_OPER_AUDITED("0310E01004", "渠道信息审批记录已审批"),
+	CHANNEL_OPER_ERROR("0310E01005", "处理渠道信息审批记录失败"),
+	
+	CHANNEL_SERVICE_EXIST("0310E01006", "渠道服务已存在"),
+	CHANNEL_SERVICE_OPER_EXIST("0310E01007", "渠道服务审批记录已存在"),
+	CHANNEL_SERVICE_NOT_EXIST("0310E01008", "渠道服务不存在"),
+	CHANNEL_SERVICE__OPER_AUDITED("0310E01009", "渠道服务审批记录已审批"),
+	CHANNEL_SERVICE__OPER_ERROR("0310E01010", "处理渠道服务审批记录失败"),
+	CHANNEL_SERVICE__OPER_SAVE_DB_ERROR("0310E01011", "渠道服务审批记录新增失败"),
+	CHANNEL_SERVICE_NOT_EXIST_AUDSTATUS("0310E01012", "渠道服务审批记录状态非待审批"),
+	CHANNEL_SERVICE_NOT_DELETE("0310E01013", "渠道服务审批删除异常"),
+	CHANNEL_SERVICE_NOT_INSERT("0310E01014", "渠道服务审批插入异常"),
+	CHANNEL_SERVICE_NOT_UPDATE("0310E01015", "渠道服务审批修改异常"),
+	
+	ATNAUTH_OPER_AUDITED("0310E01016", "渠道认证信息存在待审批记录"),
+	ATNAUTH__EXIST("0310E01017", "渠道认证信息已存在"),
+	INSERT_ATNAUTH__OPER_ERROR("0310E01018", "插入渠道信息待审批记录失败"),
+	
+	CHANNEL_DEV_EXIST("0310E01019", "渠道白名单已存在"),
+	CHANNEL_DEV_NOT_EXIST("0310E01020", "渠道白名单不存在"),
+	CHANNEL_DEV_OPER_EXIST("0310E01021", "渠道白名单审批记录已存在"),
+	CHANNEL_DEV_OPER_NOT_EXIST("0310E01022", "渠道白名单审批记录不存在"),
+	INSERT_CHANNEL_DEV_OPER("0310E01023","添加渠道白名单待审批信息失败"),
+	UPDATE_CHANNEL_DEV_FAIL("0310E01024","更新渠道白名单信息失败"),
+	UPDATE_CHANNEL_DEV_OPER_FAIL("0310E01025","更新渠道白名单审批记录失败"),
+	SWAL_CARD_INSERT_ERROR("0310E01026", "吞没卡信息录入异常"),
+	
+	
+	
+	//62001-62999为柜员管理交易相交错误码
+	EP_DUTYNAME_ISEMPTY("0310E62001", "实体岗位名称为空"),
+	EP_DUTYTPNO_ISEMPTY("0310E62002", "实体岗位类型编号为空"),
+	EP_BRNO_ISEMPTY("0310E62003", "柜员所在机构号为空"),
+	EP_BRNO_CHECK_ERROR("0310E62004", "实体岗新增机构号校验失败"),
+	
+	TELLER_NOT_EXIST("0310E62005", "柜员号不存在"),
+	TELLER_SYS_NOT_EXIST("0310E62006", "柜员注册系统不存在"),
+	TELLER_ENDUTY_NOT_EXIST("0310E62007", "柜员实体岗不存在"),
+	TELLER_SYS_NOT_LOGIN("0310E62008", "柜员未登录应用系统"),
+	TELLER_COMPUL_EXIT_ONLY_SELF("0310E62009", "只能操作本机构的柜员!!"),
+	TELLER_BRANCH_NOT_EXIST("0310E62010", "柜员网点不存在"),
+	TELLER_BRANCH_INVALID("0310E62010", "柜员未登录系统"),
+	SYSTEM_NOT_EXIT("0310E62011", "柜员尚有未签退系统"),
+	
+	
+	EP_SAVE_DB_ERROR("0310E62012", "实体岗新增数据库操作失败"),
+	EP_SAVE_ERROR("0310E62013", "实体岗新增失败"),
+	EP_DUTYNO_IS_EMPTY("0310E62014", "实体岗新增所属岗位类型为空"),
+	TELLER_MULTI_DUTY("0310E62015", "柜员一人多岗"),
+	BRANCH_SYNC_ERROR("0310E62016", "机构同步出错"),
+	SYNC_STAFF_IS_EMPTY("0310E62017", "行员同步结果为空"),
+	GET_ERROR_ENUM_ERROR("0310E62018", "获取错误码枚举信息失败"),
+	SET_RETURN_INFO_ERROR("0310E62019", "设置返回状态赋值失败"),
+	SYNC_BRANCH_IS_EMPTY("0310E62020", "机构同步结果为空"),
+	
+
+	TELLER_BRANCH_NOT_SUBJECTION("0310E62021", "被操作柜员与网点非隶属关系"),
+	TELLER_ENDUTY_NOT_ON_DUTY("0310E62022", "柜员未在岗位上岗"),
+	TELLER_STAFF_NOT_EXIST("0310E62023", "该柜员对应行员信息不存在"),
+	TELLER_STAFF_STATUS_INVALID("0310E62024", "该柜员对应行员状态无效"),
+	TELLER_TELLERSYS_NOT_EXIST("0310E62025", "柜员在当前系统注册信息不存在"),
+	TELLER_TELLERSYS_STATUS_INVALID("0310E62026", "柜员在当前系统已停用"),
+	TELLER_ENDUTY_ON_DUTY("0310E62027", "实体岗已有柜员在岗"),
+	ENDUTY_DUTY_TYPE_NOT_EXIST("0310E62028", "实体岗所属岗位类型信息不存在"),
+	TELLERTYPE_DUTYTYPE_NOT_CONFORM("0310E62029", "柜员类型与岗位类型不相符"),
+	SET1_RETURN_INFO_ERROR("0310E62030", "柜员未日终"),
+	BRANCH_STATUS_INVALID("0310E62031", "机构状态无效"),
+	TELLER_PRETREATMENT_EXIST("0310E62032", "存在柜员预处理记录"),
+	
+	
+	
+	DEL_DUTY_FALSE("0310E62033", "岗位类型删除失败"),
+	TELLER_THE_SAME("0310E62034", "操作柜员与被调动柜员相同"),
+	TELLER_TRANS_OPERFLAG("0310E62035", "柜员岗位调动类型错误"),
+	DUTY_INIT_FAIL("0310E62037", "柜员所在机构号为空"),
+	TELLER_TRANS("0310E62038", "柜员岗位调动异常"),
+	TELLER_CALLOUT("0310E62039", "柜员调出异常"),
+	TELLER_REG_FAIL("0310E62040", "注册失败，柜员未注册综合业务系统"),
+	TELLERSYS_REG_FAIL("0310E62041", "注册失败，行员号错误"),
+	TELLERSYS_STATUS_INVALID("0310E62042", "柜员注册系统状态无效"),
+	DUTYINFO_ADD("0310E62043", "岗位类别新增异常"),
+	TELLER_ON_DUTY("0310E62044", "柜员在岗"),
+	
+	QUERY_DUTY_FALSE("0310E62045", "查询记录为空"),
+	QUERY_STATUE_FALSE("0310E62046", "检查岗位类型状态无效"),
+	DELETE_DUTY_FALSE("0310E62047", "删除岗位信息失败"),
+	QUERY_EMPTY_FALSE("0310E62048", "查询记录为空"),
+	TELLER_HAPPEN_TRANS("0310E62049", "柜员XXX今天发生了交易，不允许调动"),
+	TELLER_MODIFY_EXCEPTION("0310E62050","柜员类型维护报错"),
+	TELLERTYP_UPDATE_FALSE("0310E62051","柜员类型更新失败"),
+	DTSY_DATA_IS_EXIST("0310E62052","新增失败，该岗位已存在受控系统记录"),
+	DUTY_DATA_IS_NOT_EXIST("0310E62053","新增失败，岗位类型编号不存在"),
+	NOT_DELETE_EXCEPTION("0310E62054","删除数据失败"),
+	NOT_INSERT_EXCEPTION("0310E62055","插入数据失败"),
+	NOT_SELECT_EXCEPTION("0310E62056","查询数据失败"),
+	NOT_UPDATE_EXCEPTION("0310E62057","更新数据失败"),
+	STATUS_IS_NOT_EXCEPTION("0310E62058","删除失败，岗位类型信息为失效状态"),
+	DTSY_DUTY_NOT_EXIST_EXCEPTION("0310E62059","签退受控表未找到该岗位类型，无法继续操作"),
+	NOT_SELECT_TELLERLOG("0310E62060","操作流水表查询异常"),
+	NOT_UPDATE_TELLERLOG("0310E62061","操作流水表更新异常"),
+	TELLERLOG_STATUS_NOT_TURE("0310E62062","柜员交易结果不处于待处理状态"),
+	DUTY_MOB_MKT_EXCEPTION("0310E62063","移动营销岗位"),
+	EXIT_BRNO_ADD_EXCEPTION("0310E62064","网点日终签退添加失败"),
+	EXIT_BRNO_UPDATE_EXCEPTION("0310E62065","网点日终签退更新失败"),
+	EXIT_BRNO_DEL_EXCEPTION("0310E62066","网点日终签退删除失败"),
+	EXIT_TELLER_ADD_EXCEPTION("0310E62067","柜员日终签退添加失败"),
+	EXIT_TELLER_DEL_EXCEPTION("0310E62068","柜员日终签退删除失败"),
+	TELLER_TMP_EXIT_EXCEPTION("0310E62069","柜员临时签退失败"),
+	NOT_TELLERSYS_SYSID_EXCEPTION("0310E62070","未找到应用系统代码"),
+	SERVICE_CATA_EXCEPTION("0310E62071","服务目录异常类"),
+	SERVICE_OPER_EXCEPTION("0310E62072","服务审批异常类"),
+	
+	TELLER_LOGIN_RANDOM_GEN_EXCEPTION("0310E62073","柜员登录随机数生成异常类"),
+	
+	//63001-63999为交易中心的相关错误码
+	
+	//64001-64999为运营管理中心的相关错误码
+	DELETE_KEEPPARA_FAIL("0310E64001","删除代保管物品参数失败"),
+	INSERT_KEEPPARA_FAIL("0310E64002","插入代保管物品参数失败"),
+	KEEPPARA_EXIST("0310E64003","该代保管物品参数记录已存在"),
+	KEEPPARA_NOT_EXIST("0310E64004","该代保管物品参数记录不存在"),
+	MODIFY_KEEPPARA_FAIL("0310E64005","修改代保管物品参数失败"),
+	GET_KEEPPARA_LIST_FAIL("0310E64006","查询传入参数错误"),
+	FIND_NO_DATA("0310E64007","查询无结果"),
+	
+	DELETE_KEEP_FAIL("0310E64008","删除代保管物品失败"),
+	INSERT_KEEP_FAIL("0310E64009","插入代保管物品失败"),
+	KEEP_EXIST("0310E64010","该代保管物品已存在"),
+	KEEP_NOT_EXIST("0310E64011","该代保管物品不存在"),
+	MODIFY_KEEP_FAIL("0310E64012","修改代保管物品失败"),
+	GET_KEEP_LIST_FAIL("0310E64013","查询传入错误"),
+	KEEP_OUT_BOUND("0310E64014","该代保管物品已出库"),
+	NO_BRANCHNO_EXCEPTION("0310E64015","机构号不正确"),
+	
+	CHANNEL_MENUINFO_EXIST("0310E64016", "系统菜单已存在"),
+	CHANNEL_MENUINFO_NOT_EXIST("0310E64017", "系统菜单不存在"),
+	INSERT_CHANNEL_MENUINFO("0310E64018","添加系统菜单失败"),
+	UPDATE_CHANNEL_MENUINFO("0310E64019","更新系统菜单失败"),
+	DELECT_CHANNEL_MENUINFO("0310E64020","删除系统菜单失败"),
+	MENUINFO_PARAM_FAIL("0310E64021","传入参数错误"),
+	DOWN_DEVMENU_FAIL("0310E64022","菜单下发失败"),
+	
+	CHANNEL_ADVMOD_EXIST("0310E64023","广告模板已存在"),
+	CHANNEL_ADVMOD_NOT_EXIST("0310E64024","广告模板不存在"),
+	INSERT_CHANNEL_ADVMOD("0310E64025","新增广告模板失败"),
+	DELECT_CHANNEL_ADVMOD("0310E64026","删除广告模板失败"),
+	
+	
+	//70001-79999公共交易固定错误码
+	//-----------------------code----------------------
+	CANNOT_CONNECT_DB_CODE("0310D70001"),					//数据库连接问题
+	NAME_OR_PASSWORD_ERROR_DB_CODE("0310D70002"),			//数据库用户名或密码错误
+	CHECK_NO_DATA_DB_CODE("0310D70003"),					//无符合查询条件的记录
+	INSERT_ERROR_DB_CODE("0310D70004"),						//插入数据库异常
+	INSERT_EXISTED_DB_CODE("0310D70005"),					//插入数据据已存在
+	UPDATE_ERROR_DB_CODE("0310D70006"),						//更新数据异常
+	DATA_RECORD_TO_ZERO_DB_CODE("0310D70007"),				//更新数据记录为0
+	SQL_HAS_ERROR_DB_CODE("0310D70008"),					//SQL存在问题
+	PARAMETER_INCONSISTENT_DB_CODE("0310D70009"),			//SQL参数绑定变量数量不一致
+	SQL_NO_FROM_DB_CODE("0310D70010"),						//入参SQL不存在FROM关键字"),
+	SEARCH_RESULT_DIFFERENT_DB_CODE("0310D70011"),			//查询字段与结果字段字段数不一致
+	GET_DATE_FAIL_DB_CODE("0310D70012"),					//获取数据库日期时间失败
+	GET_DATE_EXCEPTION_DB_CODE("0310D70013"),				//获取数据库日期时间异常
+	DELETE_ERROR_DB_CODE("0310D70014"),						//删除数据库数据异常
+	SELECT_ERROR_DB_CODE("0310D70015"),						//查询数据异常
+	PAGEFLAG_NOTIN_UP_DOWN_CODE("0310E70016"),				//翻页标识不是'上一页'或'下一页
+	ORDERBY_NOTIN_ASC_DESC_CODE("0310E70017"),				//入参orderby不是DESC或ASC
+	PROC_ERROR_DB_CODE("0310E70018"),						//存储过程执行失败
+	COMMIT_ERROR_CODE("0310E70019"),						//数据库提交异常
+	ROLLBACK_ERROR_CODE("0310E70020"),						//数据库回滚异常	
+	GET_STATEMEN_ERROR("0310E70021"),						//获取statemen异常
+	QUERY_ERROR("0310E70022"),								//游标查询异常
+	
+	THROW_DBEXCEPTION_CODE("0310D79998"),					//抛出DBException异常
+	SQL_RUN_ERROR_DB_CODE("0310D79999"),					//SQL执行异常
+	
+	CANNOT_CONNECT_DB("0310D70001","连接不上数据库"),
+	NAME_OR_PASSWORD_ERROR_DB("0310D70002","数据库用户名或密码错误"),
+	CHECK_NO_DATA_DB("0310D70003","无符合条件的记录"),
+	INSERT_ERROR_DB("0310D70004","插入数据库异常"),
+	INSERT_EXISTED_DB("0310D70005","插入数据据已存在"),
+	UPDATE_ERROR_DB("0310D70006","更新数据异常"),
+	DATA_RECORD_TO_ZERO_DB("0310D70007","更新数据记录为0"),
+	SQL_HAS_ERROR_DB("0310D70008","SQL存在问题"),
+	PARAMETER_INCONSISTENT_DB("0310D70009","SQL参数绑定变量数量不一致"),
+	SQL_NO_FROM_DB("0310D70010","入参SQL不存在FROM关键字"),
+	SEARCH_RESULT_DIFFERENT_DB("0310D70011","查询字段与结果字段字段数不一致"),
+	GET_DATE_FAIL_DB("0310D70012","获取数据库日期时间失败"),
+	GET_DATE_EXCEPTION_DB("0310D70013","获取数据库日期时间异常"),
+	DELETE_ERROR_DB("0310D70014","删除数据库数据异常"),
+	SELECT_ERROR_DB("0310D70015","查询数据异常"),
+	PAGEFLAG_NOTIN_UP_DOWN("0310E70016","翻页标识不是'上一页'或'下一页"),
+	ORDERBY_NOTIN_ASC_DESC("0310E70017","入参orderby不是DESC或ASC"),
+	PROC_ERROR_DB("0310E70018","存储过程执行失败"),
+	SQL_RUN_ERROR_DB("0310D79999","SQL执行异常"),
+	
+	//90001-99999保留,预留为全行统一错误码
+	
+	CANNOT_CONNECT_SYSTEM("0310N80001","连接不上对应系统"),
+	SEND_MESSAGE_ERROR("0310N80002","发送数据异常"),
+	SEND_MESSAGE_TIMEOUT("0310N80003","发送数据超时"),
+	ACCEPT_MESSAGE_ERROR("0310N80004","接收数据异常"),
+	ACCEPT_MESSAGE_TIMEOUT("0310N80005","接收数据超时"),
+	
+	COMMUNICATION_TIMEOUT("0310N89998","通讯超时"),
+	COMMUNICATION_EXCEPTION("0310N89999","通讯异常"),
+	
+	SYSTEM_ERROR("0310N99998", "系统错误"),
+	UNKNOW_ERROR("0310N99999","未知错误"),
+	;
+	
+	private String code;
+	private String msg;
+	
+	private CommonErrorCodeEnum(String code,String msg) {
+		this.code = code;
+		this.msg = msg;
+	}
+	
+	private CommonErrorCodeEnum(String code) {
+		this.code = code;
+	}
+	
+	@Override
+	public String getCode() {
+		return code;
+	}
+
+	@Override
+	public String getMsg() {
+		return msg;
+	}
+
+	@Override
+	public String toString() {
+		return String.format("code=%s,msg=%s", code,msg);
+	}
+	
+}
