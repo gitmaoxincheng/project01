@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>030C038ADBF4884B8203BE3D9084B63F</UUID>
+  <Target>tc.bank.schedule.B_Schedule.B_updateScheduleFlow</Target>
+  <Desp>更新调度流水</Desp>
+  <Group>调度任务</Group>
+  <Level>1</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>更新调度流水</ToolTip>
+  <InArgs>
+    <Total>2</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>REQ</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>请求容器</Desc>
+    </Arg>
+    <Arg>
+      <Name>RSP</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>返回容器</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>0</Total>
+    <Type>0</Type>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/bank/componentSourceCode/tc/bank/schedule/B_Schedule.java</Path>
+</Component>

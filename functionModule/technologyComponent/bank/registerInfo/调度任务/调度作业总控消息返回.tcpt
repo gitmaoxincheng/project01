@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>C401DC3CCE9EE2CAC97B0EF5F295E42E</UUID>
+  <Target>tc.bank.schedule.B_Schedule.B_ScheduleControllerBack</Target>
+  <Desp>调度作业总控消息返回</Desp>
+  <Group>调度任务</Group>
+  <Level>1</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>调度作业总控</ToolTip>
+  <InArgs>
+    <Total>3</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>REQ</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>请求容器</Desc>
+    </Arg>
+    <Arg>
+      <Name>RSP</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>返回容器</Desc>
+    </Arg>
+    <Arg>
+      <Name>status</Name>
+      <Type>java.lang.String</Type>
+      <Desc>状态</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>0</Total>
+    <Type>0</Type>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/bank/componentSourceCode/tc/bank/schedule/B_Schedule.java</Path>
+</Component>

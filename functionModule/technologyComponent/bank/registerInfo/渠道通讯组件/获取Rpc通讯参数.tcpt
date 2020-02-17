@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>766B60650E5459FE5CD2523429DE42F3</UUID>
+  <Target>tc.bank.communicate.B_ChannelCommPackage.B_InitRpcPara</Target>
+  <Desp>获取Rpc通讯参数</Desp>
+  <Group>渠道通讯组件</Group>
+  <Level>1</Level>
+  <Style>0</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>涉及参数配置表:t_comm_param_ext,必须配置</ToolTip>
+  <InArgs>
+    <Total>2</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>appId</Name>
+      <Type>java.lang.String</Type>
+      <Desc>应用编号</Desc>
+    </Arg>
+    <Arg>
+      <Name>commItem</Name>
+      <Type>java.lang.String</Type>
+      <Desc>报文类型</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>paraDict</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>配置的参数</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>1</Total>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/bank/componentSourceCode/tc/bank/communicate/B_ChannelCommPackage.java</Path>
+</Component>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>184DA91A114294170EE8A5458548E1C4</UUID>
+  <Target>tc.bank.schedule.B_Schedule.A_tradeExit</Target>
+  <Desp>调度交易退出</Desp>
+  <Group>调度任务</Group>
+  <Level>1</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip></ToolTip>
+  <InArgs>
+    <Total>3</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>req</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>请求容器</Desc>
+      <DefaultParam>__REQ__</DefaultParam>
+    </Arg>
+    <Arg>
+      <Name>rsp</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>应答容器</Desc>
+      <DefaultParam>__RSP__</DefaultParam>
+    </Arg>
+    <Arg>
+      <Name>status</Name>
+      <Type>java.lang.String</Type>
+      <Desc>状态</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>0</Total>
+    <Type>0</Type>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/bank/componentSourceCode/tc/bank/schedule/B_Schedule.java</Path>
+</Component>
